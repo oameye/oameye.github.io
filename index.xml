@@ -239,6 +239,15 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>An example title</title>
+      <link>https://oameye.github.io/test/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://oameye.github.io/test/</guid>
+      <description>&lt;a class=&#34;twitter-timeline&#34; href=&#34;https://twitter.com/OrjanAmeye?ref_src=twsrc%5Etfw&#34;&gt;Tweets by OrjanAmeye&lt;/a&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Project</title>
       <link>https://oameye.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>

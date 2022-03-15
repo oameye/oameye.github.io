@@ -65,10 +65,10 @@
   
     
   
-  <meta name="description" content="Master student in theoretical Physics" />
+  <meta name="description" content="On this page you will find sources and small explenantion how I made this site." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://oameye.github.io/project/" />
+  <link rel="alternate" hreflang="en-us" href="https://oameye.github.io/post/buildsite/" />
 
   
   
@@ -317,8 +317,6 @@
   
 
   
-    <link rel="alternate" href="/project/index.xml" type="application/rss+xml" title="Orjan Ameye" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -327,7 +325,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu602ce00c64df696a8fc508a1a36adf94_21310_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu602ce00c64df696a8fc508a1a36adf94_21310_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://oameye.github.io/project/" />
+  <link rel="canonical" href="https://oameye.github.io/post/buildsite/" />
 
   
   
@@ -352,33 +350,82 @@
     <meta property="twitter:creator" content="@OrjanAmeye" />
   
   <meta property="og:site_name" content="Orjan Ameye" />
-  <meta property="og:url" content="https://oameye.github.io/project/" />
-  <meta property="og:title" content="Projects | Orjan Ameye" />
-  <meta property="og:description" content="Master student in theoretical Physics" /><meta property="og:image" content="https://oameye.github.io/media/sharing.jpg" />
+  <meta property="og:url" content="https://oameye.github.io/post/buildsite/" />
+  <meta property="og:title" content="How I build this Site | Orjan Ameye" />
+  <meta property="og:description" content="On this page you will find sources and small explenantion how I made this site." /><meta property="og:image" content="https://oameye.github.io/media/sharing.jpg" />
     <meta property="twitter:image" content="https://oameye.github.io/media/sharing.jpg" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2016-04-27T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2018-06-28T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2018-06-28T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://oameye.github.io/post/buildsite/"
+  },
+  "headline": "How I build this Site",
+  
+  "datePublished": "2018-06-28T00:00:00Z",
+  "dateModified": "2018-06-28T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Orjan Ameye"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Orjan Ameye",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://oameye.github.io/media/icon_hu602ce00c64df696a8fc508a1a36adf94_21310_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "On this page you will find sources and small explenantion how I made this site."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>Projects | Orjan Ameye</title>
+  <title>How I build this Site | Orjan Ameye</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="61d49b13c854ed728c46b47fbad82090" >
 
   
   
@@ -797,94 +844,124 @@
     
     
 
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>How I build this Site</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 28, 2018
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
     
 
 
 
 
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Projects</h1>
-
-  
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-    
+    <div class="article-style">
+      <details class="toc-inpage d-print-none  " open>
+  <summary class="font-weight-bold">Table of Contents</summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#prerequirements">Prerequirements</a></li>
+    <li><a href="#setup">Setup</a></li>
+    <li><a href="#make-page">Make page</a></li>
+    <li><a href="#code-highlighting">Code Highlighting</a></li>
+    <li><a href="#jupyter-notebook">Jupyter Notebook</a></li>
+  </ul>
+</nav>
+</details>
 
+<h2 id="prerequirements">Prerequirements</h2>
+<ul>
+<li><code>git</code> and Github account</li>
+<li><code>Hugo</code></li>
+<li>(<code>R</code>, RStudio and Blogdown)</li>
+</ul>
+<h2 id="setup">Setup</h2>
+<ul>
+<li><a href="https://www.netlify.com/" target="_blank" rel="noopener">Netfly</a>
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/example/" >Example Project</a>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/LIFvgrRxdt4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</li>
+</ul>
+<h2 id="make-page">Make page</h2>
+<p><a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">Page Elements: Writing content with Markdown, LaTeX, and Shortcodes</a></p>
+<h2 id="code-highlighting">Code Highlighting</h2>
+<p>highlight.js:</p>
+<ul>
+<li><a href="https://cdnjs.com/libraries/highlight.js" target="_blank" rel="noopener">program languages</a></li>
+<li><a href="https://highlightjs.org/static/demo/" target="_blank" rel="noopener">styles</a></li>
+</ul>
+<h2 id="jupyter-notebook">Jupyter Notebook</h2>
+ <iframe
+       src="./JupyterColorstyle.html"
+       width="100%"
+       height="500px"
+       style="border:none;">
+ </iframe>
     </div>
 
     
-    <a href="/project/example/"  class="summary-link">
-      <div class="article-style">
-        An example of using the in-built project page.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
 
 
 
@@ -897,52 +974,20 @@
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
 
 
-    </div>
-    
+
+
+
+
 
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/example/" >
-      <img src="/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-           alt="Example Project" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-
-  
-
-</div>
+</article>
   </div>
 
   <div class="page-footer">

@@ -2,8 +2,8 @@
   "name": "Orjan Ameye",
   "short_name": "Orjan Ameye",
   "lang": "en-us",
-  "theme_color": "#1565c0",
-  "background_color": "#1565c0",
+  "theme_color": "#4caf50",
+  "background_color": "#4caf50",
   "icons": [{
     "src": "/media/icon_hu602ce00c64df696a8fc508a1a36adf94_21310_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",

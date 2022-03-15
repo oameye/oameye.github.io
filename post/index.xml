@@ -7,7 +7,7 @@
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://oameye.github.io/media/icon_hu602ce00c64df696a8fc508a1a36adf94_21310_512x512_fill_lanczos_center_3.png</url>
+      <url>https://oameye.github.io/media/sharing.jpg</url>
       <title>Posts</title>
       <link>https://oameye.github.io/post/</link>
     </image>
@@ -87,6 +87,56 @@
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>How I build this Site</title>
+      <link>https://oameye.github.io/post/buildsite/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://oameye.github.io/post/buildsite/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#prerequirements&#34;&gt;Prerequirements&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#make-page&#34;&gt;Make page&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#code-highlighting&#34;&gt;Code Highlighting&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;prerequirements&#34;&gt;Prerequirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git&lt;/code&gt; and Github account&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;R&lt;/code&gt;, RStudio and Blogdown)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netfly&lt;/a&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/LIFvgrRxdt4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;make-page&#34;&gt;Make page&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Page Elements: Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;highlight.js:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cdnjs.com/libraries/highlight.js&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;program languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;styles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h2&gt;
+ &lt;iframe
+       src=&#34;./JupyterColorstyle.html&#34;
+       width=&#34;100%&#34;
+       height=&#34;500px&#34;
+       style=&#34;border:none;&#34;&gt;
+ &lt;/iframe&gt;</description>
     </item>
     
   </channel>

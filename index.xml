@@ -33,6 +33,56 @@
     </item>
     
     <item>
+      <title>How I build this Site</title>
+      <link>https://oameye.github.io/post/buildsite/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://oameye.github.io/post/buildsite/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#prerequirements&#34;&gt;Prerequirements&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#make-page&#34;&gt;Make page&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#code-highlighting&#34;&gt;Code Highlighting&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;prerequirements&#34;&gt;Prerequirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git&lt;/code&gt; and Github account&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;R&lt;/code&gt;, RStudio and Blogdown)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netfly&lt;/a&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/LIFvgrRxdt4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;make-page&#34;&gt;Make page&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Page Elements: Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;highlight.js:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cdnjs.com/libraries/highlight.js&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;program languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;styles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h2&gt;
+ &lt;iframe
+       src=&#34;./JupyterColorstyle.html&#34;
+       width=&#34;100%&#34;
+       height=&#34;500px&#34;
+       style=&#34;border:none;&#34;&gt;
+ &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>https://oameye.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -239,53 +289,361 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>How I build this Site</title>
-      <link>https://oameye.github.io/post/buildsite/</link>
+      <title>Eigenfunctions of the time independent Schrodinger equation</title>
+      <link>https://oameye.github.io/post/eigenfunctions/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/post/buildsite/</guid>
-      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#prerequirements&#34;&gt;Prerequirements&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#make-page&#34;&gt;Make page&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#code-highlighting&#34;&gt;Code Highlighting&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
+      <guid>https://oameye.github.io/post/eigenfunctions/</guid>
+      <description>&lt;p&gt;The text and method is based on the following sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Youtube, &lt;em&gt;2D Schrodinger Equation Numerical Solution in PYTHON&lt;/em&gt;, (2022), Available at: &lt;a href=&#34;https://www.youtube.com/watch?v=DF1SnjXZcbM&amp;amp;list=WL&amp;amp;index=8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=DF1SnjXZcbM&amp;list=WL&amp;index=8&lt;/a&gt; (Accessed: 6 March 2022).&lt;/li&gt;
+&lt;li&gt;Alexvas, &lt;em&gt;Discretization of Laplacian with boundary conditions&lt;/em&gt;, (2017), Available at: &lt;a href=&#34;https://scicomp.stackexchange.com/q/25976&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://scicomp.stackexchange.com/q/25976&lt;/a&gt; (Accessed: 6 March 2022).&lt;/li&gt;
+&lt;li&gt;Thomas H. Pulliam, David W. Zingg., &lt;em&gt;Fundamental Algorithms in Computational Fluid Dynamics&lt;/em&gt;, (2014), Springer, Available at: &lt;a href=&#34;https://link.springer.com/book/10.1007/978-3-319-05053-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://link.springer.com/book/10.1007/978-3-319-05053-9&lt;/a&gt; (Accessed: 6 March 2022).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using PyPlot, PyCall
+using LinearAlgebra
+using SparseArrays
+using Arpack, KrylovKit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;two-dimensional-box&#34;&gt;Two-dimensional box&lt;/h2&gt;
+&lt;p&gt;The goal is to solve the single particle Schrödinger equation in a two-dimensional box of length $2L$ of the Hamiltonian:
+$$
+\hat{h}=\frac{-\hbar^{2}}{2 m} \nabla^{2}+V(\mathbf{r}, t).
+$$
+The box can have a homogeneous Dirichlet boundary condition, i.e., the wave function evaluated at the border must vanish, or periodic boundary conditions. There can be a potential $V$ in the box. So let us a meshgrid of $\mathbf{x}$ and $\mathbf{y}$ coordinates.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;N = 100
+L = 10.0
+Δx² = (2*L/N)^2
+function meshgrid(x::LinRange{Float64, Int64}, y::LinRange{Float64, Int64})::Tuple{Matrix{Float64}, Matrix{Float64}}
+    X = [x for _ in y, x in x]
+    Y = [y for y in y, _ in x]
+    X, Y
+end
+x = LinRange(-L, L, N)
+y = LinRange(-L, L, N)
+X, Y = meshgrid(x, y);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;potential&#34;&gt;Potential&lt;/h2&gt;
+&lt;p&gt;The potential is chosen to be eightfold rotation symmetric quasicrystal, centered on $\mathbf{r}=0,$
 
-&lt;h2 id=&#34;prerequirements&#34;&gt;Prerequirements&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git&lt;/code&gt; and Github account&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;(&lt;code&gt;R&lt;/code&gt;, RStudio and Blogdown)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netfly&lt;/a&gt;
+$$
+V(\mathbf{r})=V_{0} \sum_{k=1}^{4} \cos ^{2}\left(\mathbf{G}_{k} \cdot \mathbf{r}\right)
+$$
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/LIFvgrRxdt4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;make-page&#34;&gt;Make page&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Page Elements: Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;highlight.js:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cdnjs.com/libraries/highlight.js&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;program languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;styles&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h2&gt;
- &lt;iframe
-       src=&#34;./JupyterColorstyle.html&#34;
-       width=&#34;100%&#34;
-       height=&#34;500px&#34;
-       style=&#34;border:none;&#34;&gt;
- &lt;/iframe&gt;</description>
+where $V_{0}$ is the potential amplitude and the quantities $G_{k}$ are the lattice vectors of four mutually incoherent standing waves oriented at the angles $0^{\circ}, 45^{\circ}, 90^{\circ}$, and $135^{\circ}$, respectively. The lattice vectors have norm $\left|G_{k}\right|=\pi / a$.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;function get_potential(x, y, V₀)
+    return V₀*(cos(pi*x)^2 + cos(pi*√2/2*(x+y))^2 + cos(pi*y)^2 + cos(-pi/(√2)*(x-y))^2)
+end
+# def get_potential(x, y):
+#     return np.exp(-(x-0.3)**2/(2*0.1**2))*np.exp(-(y-0.3)**2/(2*0.1**2))
+V = get_potential.(X,Y, 0.005)
+fig = figure(figsize=(6.2,5))
+contourf(X, Y, V, 50)
+# pcolormesh(X, Y, V, cmap=:RdBu)
+colorbar()
+# plot_surface(X, Y, V)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_aa274beb4957ff60b82c3f5c79717615.webp 400w,
+               /post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_3cfffccfe2cc853c2e3785a09101425b.webp 760w,
+               /post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://oameye.github.io/post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_aa274beb4957ff60b82c3f5c79717615.webp&#34;
+               width=&#34;558&#34;
+               height=&#34;434&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PyObject &amp;lt;matplotlib.colorbar.Colorbar object at 0x0000000081FE1460&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;units&#34;&gt;Units&lt;/h2&gt;
+&lt;p&gt;The Schrödinger equation is given by
+$$ \left[\frac{-\hbar^{2}}{2 m} \nabla^{2}+V(\mathbf{r})\right] \psi(\mathbf{r}) = E\psi(\mathbf{r}),$$
+Let us use the lattice spacing $a$ and the corresponding recoil energy $E_r = \pi^2\hbar^2/2ma^2$ as the space and energy units, respectively, such that we have
+
+$$
+\left[\frac{-\hbar^2}{2mE_ra^2} \tilde{\nabla}^{2}+\frac{V(\mathbf{\tilde{r}})}{E_r}\right] \psi(\mathbf{\tilde{r}}) = \left[\frac{-1}{\pi^2} \tilde{\nabla}^{2}+\tilde{V}_{0} \sum_{k=1}^{4} \cos ^{2}\left(\tilde{\mathbf{G}}_{k} \cdot \tilde{\mathbf{r}}\right)\right] \psi(\mathbf{\tilde{r}}) = \tilde{E}\psi(\mathbf{\tilde{r}}),
+$$
+
+where $|\tilde{\mathbf{G}}_{k}|=\pi$, $\tilde{\mathbf{r}} = \frac{\mathbf{r}}{a}$, and $\tilde{E}=\frac{E}{E_r}$.&lt;/p&gt;
+&lt;h2 id=&#34;discretize-in-one-dimension&#34;&gt;Discretize in one dimension&lt;/h2&gt;
+&lt;p&gt;Rest us to discretize our Hamiltonian. The idea can be easily explained by the following &lt;strong&gt;finite difference approximation&lt;/strong&gt; of the second derivative in one dimension
+$$ \frac{d^2 \psi}{dx^2} \approx \frac{\psi_{i+1}-2\psi_i + \psi_{i-1}}{\Delta x^2}.$$&lt;/p&gt;
+&lt;h3 id=&#34;dirichlet-boundary-conditions&#34;&gt;Dirichlet boundary conditions&lt;/h3&gt;
+&lt;p&gt;Suppose we have $M=4$ interior points and $a$ and $b$ two boundary points, a mesh with four interior points $\Delta x=2L /(M+1)$, represented as follows
+\begin{align*}
+&amp;amp;\qquad  \ \ a \ \ \ \ 1 \ \ \ \ 2 \ \ \ \ 3 \ \ \ \, 4 \ \ \ \  b \\\
+&amp;amp;x=-L \ - \ - \ - \ - \ \ L
+\end{align*}
+We impose Dirichlet boundary conditions, $u(-L)=u_{a}, u(L)=u_{b}$ and use the &lt;strong&gt;centered finite difference approximation&lt;/strong&gt; at every point in the mesh. We arrive at the four equations:
+
+\begin{align*}
+\left(d_{x x} u\right)_{1} &amp;=\frac{1}{\Delta x^{2}}\left(u_{a}-2 u_{1}+u_{2}\right) \qquad \left(d_{x x} u\right)_{2} =\frac{1}{\Delta x^{2}}\left(u_{1}-2 u_{2}+u_{3}\right) \\\\\\
+\left(d_{x x} u\right)_{3} &amp;=\frac{1}{\Delta x^{2}}\left(u_{2}-2 u_{3}+u_{4}\right) \qquad \left(d_{x x} u\right)_{4} =\frac{1}{\Delta x^{2}}\left(u_{3}-2 u_{4}+u_{b}\right)
+\end{align*}
+
+Introducing
+\begin{align*}
+\vec{u}=\left( \begin{array}{c} \psi_{1} \\\ \psi_{2} \\\ \psi_{3} \\\ \psi_{4} \end{array} \right)
+\quad
+(\overrightarrow{b c})=\frac{1}{\Delta x^{2}} \left( \begin{array}{c} \psi_{a} \\\ 0 \\\ 0 \\\ \psi_{b} \end{array} \right)
+\quad
+A=\frac{1}{\Delta x^{2}} \left( \begin{array}{rrrr} -2 &amp;amp; 1 &amp;amp; &amp;amp; \\\ 1 &amp;amp; -2 &amp;amp; 1 &amp;amp; \\\ &amp;amp; 1 &amp;amp; -2 &amp;amp; 1 \\\ &amp;amp; &amp;amp; 1 &amp;amp; -2 \end{array} \right)
+\end{align*}
+we can rewrite in matrix form as
+\begin{align*}
+\frac{d^2 \psi}{dx^2} =\frac{1}{\Delta x^{2}}D= A \vec{\psi}+(\overrightarrow{b c})
+\end{align*}&lt;/p&gt;
+&lt;h3 id=&#34;periodic-boundary-conditions&#34;&gt;Periodic boundary conditions&lt;/h3&gt;
+&lt;p&gt;$\color{red}{\text{This subsection has to tested and worked out. First try did not work.}}$&lt;/p&gt;
+&lt;p&gt;Suppose we have $M=8$ points on a linear &lt;strong&gt;periodic&lt;/strong&gt; mesh, represented as follows
+\begin{align*}
+&amp;amp;\cdots \ \ \ 7 \ \ \ \  8 \ \ \ \ \ \ a \ \ \ \ 1 \ \ \ \ 2 \ \ \ \ 3 \ \ \ \ 4 \ \ \ \ b \ \ \ \ 1 \ \ \ \ 2 \ \ \ \cdots \\\
+&amp;amp;x= \ - \ \ - \ \ -L \ \ - \ \ - \ \ - \ \ - \ \ L \ \ - \ \ -
+\end{align*}
+where we have that $\psi(L)=\psi(-L)$. It can be shown that the matrix representation is modified by
+\begin{align*}
+\frac{d^2 \psi}{dx^2} =\frac{1}{\Delta x^{2}}D_p=\frac{1}{\Delta x^{2}} \left( \begin{array}{rrrr} -2 &amp;amp; 1 &amp;amp; &amp;amp; 1 \\\ 1 &amp;amp; -2 &amp;amp; 1 &amp;amp; \\\ &amp;amp; 1 &amp;amp; -2 &amp;amp; 1 \\\ 1 &amp;amp; &amp;amp; 1 &amp;amp; -2 \end{array} \right)
+\end{align*}&lt;/p&gt;
+&lt;h2 id=&#34;discretize-in-two-dimensions&#34;&gt;Discretize in two dimensions&lt;/h2&gt;
+&lt;p&gt;In &lt;strong&gt;two dimensions&lt;/strong&gt;, the wavefunction is not a vector anymore but a matrix. However, we would like to write it back as vector via the transformation
+$$
+\left( \begin{array}{rrrr} \psi_{11} &amp;amp; \psi_{12} &amp;amp; \cdots &amp;amp; \psi_{1N} \\\ \psi_{21} &amp;amp; \psi_{22} &amp;amp; \cdots &amp;amp; \psi_{2N} \\\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\\ \psi_{N1} &amp;amp; \psi_{N2} &amp;amp; \cdots &amp;amp; \psi_{NN} \end{array} \right) \rightarrow \left( \begin{array}{c} \psi_{11} \\\ \psi_{12} \\\ \vdots \\\  \psi_{NN} \end{array} \right)
+$$
+The second derivative finite difference matrix must than be written as
+$$
+\frac{\partial^2 \psi}{\partial x^2} = \frac{1}{\Delta x^{2}} I \otimes D = \frac{1}{\Delta x^{2}} \left( \begin{array}{rrr} D &amp;amp;  &amp;amp; \\\  &amp;amp; \ddots &amp;amp; \\\ &amp;amp;  &amp;amp; D\end{array} \right)
+$$
+where $\otimes$ is the &lt;strong&gt;Kronecker product&lt;/strong&gt;. The &lt;strong&gt;2D Laplacian&lt;/strong&gt; can than be written as
+$$
+\nabla^{2} = \frac{\partial^2 \psi}{\partial x^2} + \frac{\partial^2 \psi}{\partial y^2} = \frac{1}{\Delta x^{2}} (I \otimes D + D \otimes I) = \frac{1}{\Delta x^{2}} D\oplus D
+$$
+where $\oplus$ is the &lt;strong&gt;Kronecker sum&lt;/strong&gt;, and we used that we discretized space as a &lt;strong&gt;squared grid&lt;/strong&gt;, i.e. $\Delta x^{2}=\Delta y^{2}$.&lt;/p&gt;
+&lt;h2 id=&#34;hamiltonian&#34;&gt;Hamiltonian&lt;/h2&gt;
+&lt;p&gt;Let us assume the homogeneous Dirichlet Boundary conditions $\psi(L, y) = \psi(-L, y) = \psi(x, L) = \psi(x, -L) = 0$. The &lt;strong&gt;discretized Schrödinger equation&lt;/strong&gt; can then be written as
+$$
+\left[-\frac{1}{\pi^2}(D \oplus D) + \Delta x^2 \tilde{V} \right] \psi = \left( \Delta x^2 \tilde{E}\right) \psi,
+$$
+where $D$ has -2 on the main diagonal and 1 on the two neighboring diagonals and $\psi$ is a vector. One could define the potential in units of $\Delta x^2$; in other words &lt;code&gt;get_potential&lt;/code&gt; actually returns $\Delta x^2 V$. However, we will leave $\Delta x^2$ in the kinetic term.
+Now we construct
+$$
+\hat{h} = -\frac{1}{\Delta x^{2}\pi^2} D \oplus D +  \tilde{V}
+$$
+such that the corresponding eigenvalues $\tilde{E}$ are in units of recoil energy $E_r$.
+Let $T=-\frac{1}{\Delta x^{2}\pi^2} D \oplus D$ and $U = V$&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;diag = ones(N); # vector of ones
+diags = Vector([diag[begin:end-1], -2*diag, diag[begin:end-1]]); # vector of vectors of the diagonals
+D = sparse(Tridiagonal(diags...)) # creates the discretised 2nd derivative
+T = -1/(Δx²*pi^2) * (kron(D, sparse(I,N,N)) + kron(sparse(I,N,N), D))  #N**2 x N**2 matrix
+U = spdiagm(reshape(V, N^2))
+H = T+U;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here we used the package &lt;code&gt;SparseArrays.jl&lt;/code&gt; to make the computations faster. &lt;strong&gt;Sparse arrays&lt;/strong&gt; are arrays that contain enough zeros that storing them in a special data structure leads to savings in space and execution time, compared to dense arrays.&lt;/p&gt;
+&lt;h2 id=&#34;eigenvectors-and-eigenvalues&#34;&gt;Eigenvectors and eigenvalues&lt;/h2&gt;
+&lt;p&gt;Now that we constructed our discretized Hamiltonian we can just exactly diagonalize our Hamiltonian to find the &lt;strong&gt;eigenvalues&lt;/strong&gt; and &lt;strong&gt;eigenvector&lt;/strong&gt;. We shall to this with the package &lt;code&gt;Arpack.jl&lt;/code&gt; which is a &lt;em&gt;Julia&lt;/em&gt; wrapper to a &lt;em&gt;FORTRAN 77&lt;/em&gt; library designed to compute a few eigenvalues and corresponding eigenvectors of large sparse or structured matrices, using the &lt;strong&gt;Implicitly Restarted Arnoldi Method&lt;/strong&gt; (IRAM) or, in the case of symmetric matrices, the corresponding variant of the &lt;strong&gt;Lanczos algorithm&lt;/strong&gt;. Both are classified as &lt;em&gt;Krylov subspace based algorithms&lt;/em&gt; (see wikipedia). It is used by many popular numerical computing environments such as &lt;em&gt;SciPy&lt;/em&gt;, &lt;em&gt;Mathematica&lt;/em&gt;, &lt;em&gt;GNU Octave&lt;/em&gt; and &lt;em&gt;MATLAB&lt;/em&gt; to provide this functionality.&lt;/p&gt;
+&lt;p&gt;We use the &lt;code&gt;eigs&lt;/code&gt; function where &lt;code&gt;nev&lt;/code&gt; specifies how many eigenvalues and eigenvectors we want and &lt;code&gt;which&lt;/code&gt; specifies the type of eigenvalues to compute. For my purposes I only need the ground state wave function.&lt;/p&gt;
+&lt;p&gt;Alternatively, one could use &lt;code&gt;KrylovKit.jl&lt;/code&gt;, a native Julia package collecting a number of Krylov-based algorithms for linear problems, singular value and eigenvalue problems and the application of functions of linear maps or operators to vectors. With &lt;code&gt;KrylovKit.jl&lt;/code&gt; I manage to find better results if when I increase the number of point $N$. My theory is that it, as black box solver, uses another method above a certain threshold $N^*$, whereas &lt;code&gt;Arpack.jl&lt;/code&gt; sticks to the same method and hence gives worse results.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;# eigenvalues, eigenvectors = eigs(H, nev=1, which=:SM);
+_, vecs, _ = eigsolve(H, 1, :SR);
+# vecs[1]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As we constructed the Hamiltonian to be a $N^2 \times N^2$ so that $\psi$ could be a vector, we have to reshape the eigenvectors back to a $N \times N$ matrix.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;function get_e(n::Int64)
+    return reshape(vecs[1]&#39;, N, N)
+end;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;figure(figsize=(6.2,5))
+pcolormesh(X, Y, get_e(0)^2, cmap=:RdBu)
+colorbar()
+# contourf(X, Y, get_e(0)^2, 100)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_983d3b93f7e9c05263dc7cf5df085168.webp 400w,
+               /post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_a23be35e0f06b0cec3de224d533613f6.webp 760w,
+               /post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://oameye.github.io/post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_983d3b93f7e9c05263dc7cf5df085168.webp&#34;
+               width=&#34;558&#34;
+               height=&#34;432&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PyObject &amp;lt;matplotlib.colorbar.Colorbar object at 0x0000000006C91580&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using PyPlot, PyCall
+using LinearAlgebra
+using SparseArrays
+using Arpack, KrylovKit
+
+function meshgrid(x::LinRange{Float64, Int64}, y::LinRange{Float64, Int64})::Tuple{Matrix{Float64}, Matrix{Float64}}
+    X = [x for _ in y, x in x]
+    Y = [y for y in y, _ in x]
+    X, Y
+end
+function QC(x::Float64, y::Float64, V₀::Float64)::Float64
+    return V₀*(cos(pi*x)^2 + cos(pi*√2/2*(x+y))^2 + cos(pi*y)^2 + cos(-pi/(√2)*(x-y))^2)
+end
+function free(x::Float64, y::Float64, V₀::Float64)::Float64
+    return V₀*(0*x+0*y)
+end
+function PC(x::Float64, y::Float64, V₀::Float64)::Float64
+    return V₀*(sin(pi*x)^2+sin(pi*y)^2)
+end
+function eigenfunctionDBCArpack(V::Matrix{Float64}, L::Float64, N::Int64)
+    Δx² = (2*L/N)^2
+    # creates the discretised 2nd derivative
+    D = sparse(Tridiagonal(ones(N-1), -2*ones(N), ones(N-1)))
+    # N**2 x N**2 matrix
+    T = -1/(Δx²*pi^2) * (kron(D, sparse(I,N,N)) + kron(sparse(I,N,N), D))
+    U = spdiagm(reshape(V, N^2))
+    H = T + U;
+
+    _, eigenvector = eigs(H, nev=1, which=:SM);
+
+    return reshape(eigenvector&#39;, N, N)
+end
+function eigenfunctionDBCKrylov(V::Matrix{Float64}, L::Float64, N::Int64)
+    Δx² = (2*L/N)^2
+    # creates the discretised 2nd derivative
+    D = sparse(Tridiagonal(ones(N-1), -2*ones(N), ones(N-1)))
+    # N**2 x N**2 matrix
+    T = -1/(Δx²*pi^2) * (kron(D, sparse(I,N,N)) + kron(sparse(I,N,N), D))
+    U = spdiagm(reshape(V, N^2))
+    H = T + U;
+
+    _, vecs, _ = eigsolve(H, 1,:SR)
+    # _, eigenvector = eigs(H, nev=1, which=:SM);
+
+    return reshape(vecs[1]&#39;, N, N)
+end
+# function eigenfunctionPBC(V::Matrix{Float64})
+    # Δx² = (2*L/N)^2
+    # # creates the discretised 2nd derivative
+    # D = sparse(Tridiagonal(ones(N-1), -2*ones(N), ones(N-1)))
+    # D[1, end] = 1.0
+    # D[end, 1] = 1.0
+    # # N**2 x N**2 matrix
+    # T = -1/(Δx²*pi^2) * (kron(D, sparse(I,N,N)) + kron(sparse(I,N,N), D))
+    # U = spdiagm(reshape(V, N^2))
+    # H = T + U;
+    # N = size(V)[1]
+    # # creates the discretised 2nd derivative
+    # D = sparse(Tridiagonal(ones(N-1), -2*ones(N), ones(N-1)))
+
+    # _, eigenvector = eigs(H, nev=1, which=:SM);
+
+#     return reshape(eigenvector&#39;, N, N)
+# end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;V₀ = 0.8
+L = 50.0
+Δx² = 0.1
+N = Int64(div(2L, Δx²))
+
+X, Y = meshgrid(LinRange(-L, L, N), LinRange(-L, L, N));
+V = QC.(X, Y, V₀)
+ef = eigenfunctionDBCKrylov(V, L, N)
+
+fig, axes = subplots(nrows=1, ncols=2, figsize=(12, 5))
+im1 = axes[1].pcolormesh(X[450:550,450:550], Y[450:550,450:550], V[450:550,450:550], cmap=:RdBu)
+colorbar(im1, ax=axes[1])
+im2 = axes[2].pcolormesh(X[450:550,450:550], Y[450:550,450:550], ef[450:550,450:550]^2, cmap=:RdBu)
+colorbar(im2, ax=axes[2])
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;png&#34; srcset=&#34;
+               /post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_566f1939be54d43f92df13569ef62ef6.webp 400w,
+               /post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_68cc67f804bceeb5f9ad28aa6e816245.webp 760w,
+               /post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://oameye.github.io/post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_566f1939be54d43f92df13569ef62ef6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;321&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PyObject &amp;lt;matplotlib.colorbar.Colorbar object at 0x000000006E89FF40&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;# @pyimport matplotlib.animation as anim
+# using Base64
+
+# fig = figure(figsize=(6.2,5))
+
+# function make_frame(i)
+#     V₀ = 0.02*i
+#     L = 10.0
+#     N = 150
+
+#     X, Y = meshgrid(LinRange(-L, L, N), LinRange(-L, L, N));
+#     V = QC.(X, Y, V₀)
+#     ef = eigenfunctionDBC(V)
+
+#     pcolormesh(X, Y, ef^2, cmap=:RdBu)
+# end
+
+# withfig(fig) do
+#     myanim = anim.FuncAnimation(fig, make_frame, frames=20, interval=200)
+#     myanim[:save](&amp;quot;test2.mp4&amp;quot;, bitrate=-1, extra_args=[&amp;quot;-vcodec&amp;quot;, &amp;quot;libx264&amp;quot;, &amp;quot;-pix_fmt&amp;quot;, &amp;quot;yuv420p&amp;quot;])
+# end
+
+# function showanim(filename)
+#     base64_video = base64encode(open(filename))
+#     display(&amp;quot;text/html&amp;quot;, &amp;quot;&amp;quot;&amp;quot;&amp;lt;video controls src=&amp;quot;data:video/x-m4v;base64,$base64_video&amp;quot;&amp;gt;&amp;quot;&amp;quot;&amp;quot;)
+# end
+# showanim(&amp;quot;test2.mp4&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>

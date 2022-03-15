@@ -77,6 +77,9 @@
 
   
   
+    
+    <script src="/js/mathjax-config.js"></script>
+  
 
   
 
@@ -248,9 +251,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -280,6 +283,45 @@
 
   
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9FXW5YQEBV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-9FXW5YQEBV', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -332,8 +374,8 @@
   
   <meta property="twitter:card" content="summary" />
   
-    <meta property="twitter:site" content="@wowchemy" />
-    <meta property="twitter:creator" content="@wowchemy" />
+    <meta property="twitter:site" content="@OrjanAmeye" />
+    <meta property="twitter:creator" content="@OrjanAmeye" />
   
   <meta property="og:site_name" content="Orjan Ameye" />
   <meta property="og:url" content="https://oameye.github.io/" />
@@ -863,10 +905,7 @@
     <div id="profile">
 
       
-      
-      <img class="avatar avatar-circle"
-           width="270" height="270"
-           src="/authors/admin/avatar_hu2e33b149ea7657c6cf90c2729d491f9b_451560_270x270_fill_q75_lanczos_center.jpg" alt="Orjan Ameye">
+      <img class="avatar avatar-circle" src="https://s.gravatar.com/avatar/cfbbd119d899f2936ff772b15e28f256?s=270')" alt="Orjan Ameye">
       
 
       <div class="portrait-title">

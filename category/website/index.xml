@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website | Orjan Ameye</title>
-    <link>https://oameye.github.io/category/website/</link>
-      <atom:link href="https://oameye.github.io/category/website/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.oameye.xyz/category/website/</link>
+      <atom:link href="https://www.oameye.xyz/category/website/index.xml" rel="self" type="application/rss+xml" />
     <description>Website</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://oameye.github.io/media/sharing.jpg</url>
+      <url>https://www.oameye.xyz/media/sharing.jpg</url>
       <title>Website</title>
-      <link>https://oameye.github.io/category/website/</link>
+      <link>https://www.oameye.xyz/category/website/</link>
     </image>
     
     <item>
       <title>How I build this Site</title>
-      <link>https://oameye.github.io/post/buildsite/</link>
+      <link>https://www.oameye.xyz/post/buildsite/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/post/buildsite/</guid>
+      <guid>https://www.oameye.xyz/post/buildsite/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;

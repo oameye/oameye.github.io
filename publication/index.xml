@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Orjan Ameye</title>
-    <link>https://oameye.github.io/publication/</link>
-      <atom:link href="https://oameye.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.oameye.xyz/publication/</link>
+      <atom:link href="https://www.oameye.xyz/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://oameye.github.io/media/sharing.jpg</url>
+      <url>https://www.oameye.xyz/media/sharing.jpg</url>
       <title>Publications</title>
-      <link>https://oameye.github.io/publication/</link>
+      <link>https://www.oameye.xyz/publication/</link>
     </image>
     
     <item>
       <title>An example conference paper</title>
-      <link>https://oameye.github.io/publication/example/</link>
+      <link>https://www.oameye.xyz/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/publication/example/</guid>
+      <guid>https://www.oameye.xyz/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

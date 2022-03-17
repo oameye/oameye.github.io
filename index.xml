@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orjan Ameye</title>
-    <link>https://oameye.github.io/</link>
-      <atom:link href="https://oameye.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.oameye.xyz/</link>
+      <atom:link href="https://www.oameye.xyz/index.xml" rel="self" type="application/rss+xml" />
     <description>Orjan Ameye</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://oameye.github.io/media/sharing.jpg</url>
+      <url>https://www.oameye.xyz/media/sharing.jpg</url>
       <title>Orjan Ameye</title>
-      <link>https://oameye.github.io/</link>
+      <link>https://www.oameye.xyz/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://oameye.github.io/talk/example-talk/</link>
+      <link>https://www.oameye.xyz/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/talk/example-talk/</guid>
+      <guid>https://www.oameye.xyz/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,9 +34,9 @@
     
     <item>
       <title>How I build this Site</title>
-      <link>https://oameye.github.io/post/buildsite/</link>
+      <link>https://www.oameye.xyz/post/buildsite/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/post/buildsite/</guid>
+      <guid>https://www.oameye.xyz/post/buildsite/</guid>
       <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
@@ -100,9 +100,9 @@ end
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://oameye.github.io/post/getting-started/</link>
+      <link>https://www.oameye.xyz/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/post/getting-started/</guid>
+      <guid>https://www.oameye.xyz/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -177,9 +177,9 @@ end
     
     <item>
       <title>Slides</title>
-      <link>https://oameye.github.io/slides/example/</link>
+      <link>https://www.oameye.xyz/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/slides/example/</guid>
+      <guid>https://www.oameye.xyz/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -306,9 +306,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Eigenfunctions of the time independent Schrodinger equation</title>
-      <link>https://oameye.github.io/post/eigenfunctions/</link>
+      <link>https://www.oameye.xyz/post/eigenfunctions/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/post/eigenfunctions/</guid>
+      <guid>https://www.oameye.xyz/post/eigenfunctions/</guid>
       <description>&lt;p&gt;The text and method is based on the following sources:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Youtube, &lt;em&gt;2D Schrodinger Equation Numerical Solution in PYTHON&lt;/em&gt;, (2022), Available at: &lt;a href=&#34;https://www.youtube.com/watch?v=DF1SnjXZcbM&amp;amp;list=WL&amp;amp;index=8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=DF1SnjXZcbM&amp;list=WL&amp;index=8&lt;/a&gt; (Accessed: 6 March 2022).&lt;/li&gt;
@@ -380,7 +380,7 @@ colorbar()
                /post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_aa274beb4957ff60b82c3f5c79717615.webp 400w,
                /post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_3cfffccfe2cc853c2e3785a09101425b.webp 760w,
                /post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://oameye.github.io/post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_aa274beb4957ff60b82c3f5c79717615.webp&#34;
+               src=&#34;https://www.oameye.xyz/post/eigenfunctions/output_6_0_hu3b0df9a8cf757933c6a55f90ff0a41bb_179880_aa274beb4957ff60b82c3f5c79717615.webp&#34;
                width=&#34;558&#34;
                height=&#34;434&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -511,7 +511,7 @@ colorbar()
                /post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_983d3b93f7e9c05263dc7cf5df085168.webp 400w,
                /post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_a23be35e0f06b0cec3de224d533613f6.webp 760w,
                /post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://oameye.github.io/post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_983d3b93f7e9c05263dc7cf5df085168.webp&#34;
+               src=&#34;https://www.oameye.xyz/post/eigenfunctions/output_20_0_hufc67467fdee818d97001458e24b0f472_36038_983d3b93f7e9c05263dc7cf5df085168.webp&#34;
                width=&#34;558&#34;
                height=&#34;432&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -623,7 +623,7 @@ colorbar(im2, ax=axes[2])
                /post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_566f1939be54d43f92df13569ef62ef6.webp 400w,
                /post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_68cc67f804bceeb5f9ad28aa6e816245.webp 760w,
                /post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://oameye.github.io/post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_566f1939be54d43f92df13569ef62ef6.webp&#34;
+               src=&#34;https://www.oameye.xyz/post/eigenfunctions/output_23_0_hucb5a79a5598546f740fa655a52d77137_104873_566f1939be54d43f92df13569ef62ef6.webp&#34;
                width=&#34;760&#34;
                height=&#34;321&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -664,9 +664,9 @@ colorbar(im2, ax=axes[2])
     
     <item>
       <title>Example Project</title>
-      <link>https://oameye.github.io/project/example/</link>
+      <link>https://www.oameye.xyz/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/project/example/</guid>
+      <guid>https://www.oameye.xyz/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -677,9 +677,9 @@ colorbar(im2, ax=axes[2])
     
     <item>
       <title>An example conference paper</title>
-      <link>https://oameye.github.io/publication/example/</link>
+      <link>https://www.oameye.xyz/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/publication/example/</guid>
+      <guid>https://www.oameye.xyz/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -696,9 +696,9 @@ colorbar(im2, ax=axes[2])
     
     <item>
       <title></title>
-      <link>https://oameye.github.io/admin/config.yml</link>
+      <link>https://www.oameye.xyz/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/admin/config.yml</guid>
+      <guid>https://www.oameye.xyz/admin/config.yml</guid>
       <description></description>
     </item>
     

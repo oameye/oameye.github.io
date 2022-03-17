@@ -112,10 +112,8 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
       
     
 
@@ -798,6 +796,16 @@
 <li><a href="https://highlightjs.org/static/demo/" target="_blank" rel="noopener">styles</a></li>
 </ul>
 <h2 id="jupyter-notebook">Jupyter Notebook</h2>
+<pre><code class="language-julia">using Pimc
+
+function test(a::Int64, b::Int64)
+    if a == 1
+        return true
+    else
+        return false
+    end
+end
+</code></pre>
  <iframe
        src="./JupyterColorstyle.html"
        width="100%"

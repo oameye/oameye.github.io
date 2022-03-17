@@ -1,82 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Website | Orjan Ameye</title>
-    <link>https://oameye.github.io/category/website/</link>
-      <atom:link href="https://oameye.github.io/category/website/index.xml" rel="self" type="application/rss+xml" />
-    <description>Website</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://oameye.github.io/media/sharing.jpg</url>
-      <title>Website</title>
-      <link>https://oameye.github.io/category/website/</link>
-    </image>
-    
-    <item>
-      <title>How I build this Site</title>
-      <link>https://oameye.github.io/post/buildsite/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://oameye.github.io/post/buildsite/</guid>
-      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#prerequirements&#34;&gt;Prerequirements&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#make-page&#34;&gt;Make page&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#google-analytics&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#code-highlighting&#34;&gt;Code Highlighting&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;prerequirements&#34;&gt;Prerequirements&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;git&lt;/code&gt; and Github account&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Hugo&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;(&lt;code&gt;R&lt;/code&gt;, RStudio and Blogdown)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Netfly&lt;/a&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/LIFvgrRxdt4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;make-page&#34;&gt;Make page&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Page Elements: Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-YAML&#34;&gt;google_analytics: &#39;3345897419&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;stream id not measurement id&lt;/p&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;highlight.js:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cdnjs.com/libraries/highlight.js&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;program languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;styles&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;using Pimc
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website | Orjan Ameye</title><link>https://oameye.github.io/category/website/</link><atom:link href="https://oameye.github.io/category/website/index.xml" rel="self" type="application/rss+xml"/><description>Website</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><image><url>https://oameye.github.io/media/sharing.jpg</url><title>Website</title><link>https://oameye.github.io/category/website/</link></image><item><title>How I build this Site</title><link>https://oameye.github.io/post/buildsite/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://oameye.github.io/post/buildsite/</guid><description>&lt;details class="toc-inpage d-print-none " open>
+&lt;summary class="font-weight-bold">Table of Contents&lt;/summary>
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#prerequirements">Prerequirements&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#setup">Setup&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#make-page">Make page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#google-analytics">Google Analytics&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code-highlighting">Code Highlighting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#jupyter-notebook">Jupyter Notebook&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/details>
+&lt;h2 id="prerequirements">Prerequirements&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>git&lt;/code> and Github account&lt;/li>
+&lt;li>&lt;code>Hugo&lt;/code>&lt;/li>
+&lt;li>(&lt;code>R&lt;/code>, RStudio and Blogdown)&lt;/li>
+&lt;/ul>
+&lt;h2 id="setup">Setup&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.netlify.com/" target="_blank" rel="noopener">Netfly&lt;/a>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/LIFvgrRxdt4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="make-page">Make page&lt;/h2>
+&lt;p>&lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">Page Elements: Writing content with Markdown, LaTeX, and Shortcodes&lt;/a>&lt;/p>
+&lt;h2 id="google-analytics">Google Analytics&lt;/h2>
+&lt;pre>&lt;code class="language-YAML">google_analytics: '3345897419'
+&lt;/code>&lt;/pre>
+&lt;p>stream id not measurement id&lt;/p>
+&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
+&lt;p>highlight.js:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://cdnjs.com/libraries/highlight.js" target="_blank" rel="noopener">program languages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://highlightjs.org/static/demo/" target="_blank" rel="noopener">styles&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="jupyter-notebook">Jupyter Notebook&lt;/h2>
+&lt;pre>&lt;code class="language-julia">using Pimc
 function test(a::Int64, b::Int64)
-    if a == 1
-        return true
-    else
-        return false
-    end
+if a == 1
+return true
+else
+return false
 end
-&lt;/code&gt;&lt;/pre&gt;
- &lt;iframe
-       src=&#34;./JupyterColorstyle.html&#34;
-       width=&#34;100%&#34;
-       height=&#34;500px&#34;
-       style=&#34;border:none;&#34;&gt;
- &lt;/iframe&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+end
+&lt;/code>&lt;/pre>
+&lt;iframe
+src="./JupyterColorstyle.html"
+width="100%"
+height="500px"
+style="border:none;">
+&lt;/iframe></description></item></channel></rss>

@@ -24,6 +24,7 @@
     &lt;li&gt;&lt;a href=&#34;#prerequirements&#34;&gt;Prerequirements&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#make-page&#34;&gt;Make page&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#google-analytics&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#code-highlighting&#34;&gt;Code Highlighting&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
@@ -47,6 +48,10 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;make-page&#34;&gt;Make page&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Page Elements: Writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-YAML&#34;&gt;google_analytics: &#39;3345897419&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;stream id not measurement id&lt;/p&gt;
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
 &lt;p&gt;highlight.js:&lt;/p&gt;
 &lt;ul&gt;
@@ -69,7 +74,8 @@ end
        width=&#34;100%&#34;
        height=&#34;500px&#34;
        style=&#34;border:none;&#34;&gt;
- &lt;/iframe&gt;</description>
+ &lt;/iframe&gt;
+</description>
     </item>
     
   </channel>

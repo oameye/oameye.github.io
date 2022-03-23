@@ -2,25 +2,6 @@
   // ns-params:@params
   var slides = { highlight_style: "dracula", theme: "black" };
 
-  // ns-hugo:C:\Users\drandran\AppData\Local\Temp\hugo_cache\modules\filecache\modules\pkg\mod\github.com\wowchemy\wowchemy-hugo-modules\wowchemy\v5@v5.0.0-20220313124820-c0d0690a83dc\assets\js\wowchemy-utils.js
-  function fixMermaid(render = false) {
-    let mermaids = [];
-    [].push.apply(mermaids, document.getElementsByClassName("language-mermaid"));
-    for (let i = 0; i < mermaids.length; i++) {
-      let mermaidCodeElement = mermaids[i];
-      let newElement = document.createElement("div");
-      newElement.innerHTML = mermaidCodeElement.innerHTML;
-      newElement.classList.add("mermaid");
-      if (render) {
-        window.mermaid.mermaidAPI.render(`mermaid-${i}`, newElement.textContent, function(svgCode) {
-          newElement.innerHTML = svgCode;
-        });
-      }
-      mermaidCodeElement.parentNode.replaceWith(newElement);
-    }
-    console.debug(`Processed ${mermaids.length} Mermaid code blocks`);
-  }
-
   // <stdin>
   var enabledPlugins = [RevealMarkdown, RevealHighlight, RevealSearch, RevealNotes, RevealMath.MathJax3, RevealZoom];
   var isObject = function(o) {
@@ -96,9 +77,6 @@
     }
     mermaidOptions["startOnLoad"] = false;
     mermaid.initialize(mermaidOptions);
-    document.addEventListener("DOMContentLoaded", function() {
-      fixMermaid(false);
-    });
   }
   var mermaidOptions;
 })();

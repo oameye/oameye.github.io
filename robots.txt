@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://www.oameye.xyz/sitemap.xml
+Sitemap: oameye.xyz/sitemap.xml

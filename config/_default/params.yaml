@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+  theme_day: my_theme
+  # theme_night: minimal
+  font: my_font
+  font_size: S
 
 # SEO
 
@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Researcher named Orjan Ameye at the University of Konstanz.'
+    twitter: 'OrjanAmeye'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,8 +35,8 @@ header:
     align: l
     show_logo: true
     show_language: false
-    show_day_night: true
-    show_search: true
+    show_day_night: false
+    show_search: false
     highlight_active_link: true
 
 # Site footer
@@ -61,14 +61,14 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: github-light
+    theme_light: github-light # nord
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/oameye/website'
     content_dir: content
     branch: main
   avatar:

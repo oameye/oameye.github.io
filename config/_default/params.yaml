@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: my_theme
-  theme_night: minimal
+  # theme_night: minimal
   font: my_font
   font_size: S
 
@@ -62,7 +62,7 @@ locale:
 features:
   syntax_highlighter:
     theme_light: manni
-    theme_dark: xcode-dark
+    # theme_dark: xcode-dark
   math:
     enable: true
   privacy_pack:

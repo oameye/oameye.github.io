@@ -21,7 +21,7 @@ organizations:
     url: https://www.zilberberg.uni-konstanz.de/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research experience include theoretical condensed matter, such as nonequilibrium physics, Floquet theory, nonlinear physics and Quantum Monte Carlo algorithms.
+bio: # My research experience include theoretical condensed matter, such as nonequilibrium physics, Floquet theory, nonlinear physics and Quantum Monte Carlo algorithms.
 
 # Interests to show in About widget
 interests:

@@ -143,7 +143,7 @@ we can rewrite in matrix form as
 
 ### Periodic boundary conditions
 
-$\color{red}{\text{This subsection has to tested and worked out. First try did not work.}}$
+> This subsection has to be tested and worked out. First try did not work.
 
 Suppose we have $M=8$ points on a linear **periodic** mesh, represented as follows
 \begin{align*}

@@ -1,3 +1,17 @@
 .navbar {
     font-size: 18px;
   }
+
+@media screen and (min-width: 768px) {
+  .wg-about {
+      height:100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: -70px
+  }
+}
+
+// .home-section {
+//   height: 100vh;
+//   }

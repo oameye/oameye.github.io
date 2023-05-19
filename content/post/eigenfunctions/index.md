@@ -22,11 +22,11 @@ comments: false  # Show comments?
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 # Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  placement: 1
-  caption: "Photo by [Geo](https://github.com/gcushen/)"
-  focal_point: "Center"
+#   placement: 1
+#   caption: "Photo by [Geo](https://github.com/gcushen/)"
+#   focal_point: "Center"
   preview_only: true
-  alt_text: An optional description of the image for screen readers.
+#   alt_text: An optional description of the image for screen readers.
   # filename: my-image.jpg  # Uncomment to load an image from `assets/media/` instead.
 
 

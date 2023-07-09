@@ -57,7 +57,7 @@ social:
     link: https://twitter.com/OrjanAmeye
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.be/citations?hl=nl&user=um9RTxAAAAAJ
+    link: https://scholar.google.com/citations?user=nitynJ4AAAAJ&hl=en&oi=ao
   - icon: github
     icon_pack: fab
     link: https://github.com/oameye

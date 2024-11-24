@@ -1,18 +1,14 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
 appearance:
-  theme_day: my_theme
-  # theme_night: minimal
-  font: my_font
-  font_size: S
+  mode: light
+  color: blue
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
@@ -23,46 +19,45 @@ marketing:
   analytics:
     google_analytics: 'G-CPHDFQL1QQ'
     baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
   verification:
     google: 'Bhl7mMlFZKqx2U0A2Ob6-eSffTc38xtZyQSY-WyF4xA'
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
-    align: l
-    show_logo: true
-    show_language: false
-    show_day_night: false
-    show_search: false
+    blox: "navbar"
+    align: "left"
+    fixed_to_top: true
+    show_search: true
+    show_theme_chooser: false
     highlight_active_link: true
+    logo:
+      text: "Orjan Ameye"
 
 # Site footer
-
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+# footer:
+#   block: minimal
+#   copyright:
+#     notice: '© {year} Me. This work is licensed under {license}'
+#     license:
+#       enable: true
+#       allow_derivatives: false
+#       share_alike: true
+#       allow_commercial: false
 
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
 # Site features
-
 features:
-  syntax_highlighter:
-    theme_light: manni
-    # theme_dark: xcode-dark
   math:
     enable: true
   privacy_pack:
@@ -71,44 +66,3 @@ features:
     url: 'https://github.com/oameye/website'
     content_dir: content
     branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
-
-# Extensions
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
-
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true

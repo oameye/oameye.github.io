@@ -1,6 +1,7 @@
-
 # Computing the energy of a bosonic gas in an harmonic trap using automatic differentiation
 using ForwardDiff: derivative
+using CairoMakie, ProgressMeter
+using BenchmarkTools
 
 function z(β, d)
     return (exp(-0.5*β)/(1-exp(-β)))^d
@@ -21,3 +22,18 @@ function energy(N::Int64, β::Float64, d::Int64; type::Symbol = :boson)
         return -derivative(x -> log(z(x, d)^N), β)
     end
 end;
+
+
+
+range2d = Iterators.product([1, 5, 10, 20], 1:0.1:10)
+mat = @showprogress map(range2d) do (N, β)
+    energy(N, β, 1)
+end
+
+fig = Figure()
+ax = Axis(fig[1, 1], xscale = log10, yscale = log10)
+for row in eachrow(mat)
+    lines!(ax, row)
+end
+
+fig

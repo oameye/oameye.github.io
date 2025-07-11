@@ -1,0 +1,19 @@
+# some information about you
+name: "Orjan Ameye"
+nickname: "Orjan"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/avatar.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "orjan.ameye@example.com"
+  # phone: "+0123456789"
+  github: oameye
+  linkedin: orjanameye
+  # researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - I am a PhD candiate in Quantum engineered systems
+  - I do research in non-equilibrium physics from non-linear (quantum) resonators to many-body systems
+  - I enjoy coding and contributing scientific software

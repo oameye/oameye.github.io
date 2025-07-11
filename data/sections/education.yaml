@@ -1,0 +1,103 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: PhD in Theoretical Condensed Matter
+  icon: fa-mountain
+  timeframe: 2022-2026
+  institution:
+    name: University of Konstanz
+    url: "#"
+    logo: /images/sections/education/uni_konstanz.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.6
+  #   outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+
+- name: Master in Theoretical Physics
+  icon: fa-graduation-cap
+  timeframe: 2017-2022
+  institution:
+    name: KU leuven
+    url: "#"
+    logo: /images/sections/education/KU_Leuven_logo.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.5
+  #   outOf: 4
+  # takenCourses: #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   collapseAfter: 3
+  #   courses:
+  #   - name: Data Structures and Algorithm
+  #     achieved: 3.75
+  #     outOf: 4
+  #   - name: Network Security
+  #     achieved: 3.80
+  #     outOf: 4
+  #   - name: Operating System
+  #     achieved: 3.5
+  #     outOf: 4
+  #   - name: Artificial Intelligent
+  #     achieved: 3.75
+  #     outOf: 4
+  publications: #(optional)
+  - title: Ameye, O. arXiv:2406.03959 (2024).
+    url: "https://doi.org/10.48550/arXiv.2406.03959"
+  extracurricularActivities: #(optional)
+  - Secretary and member of the Core staff of Overarching Education Council at the Faculty of science KU Leuven.
+  - Student representative at the Education Faculty Board, Faculty Group and Board Internationalization, Program Committee Physics.
+  customSections: #(optional)
+    - name: Thesis
+      content: |- 
+        Path Integral Monte Carlo Worms Algorithm for Superfluid Ring Lattices:
+        Building Quantum Devices in Optical Landscapes
+    - name: Supervisor
+      content:  Prof. P. Van Dorpe, N. Verellen, D. Kouznetsov
+# - name: Higher Secondary School Certificate
+#   icon: fa-university
+#   timeframe: 2010-2012
+#   institution:
+#     name: MST College of Science
+#     url: "#"
+#     logo: /images/sections/education/science_college.png
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/education/science_college.png
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 5
+#     outOf: 5
+#   extracurricularActivities: #(optional)
+#   - In vitae facilisis est, eget porta sem.
+#   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+#   - Duis sed massa feugiat, ornare justo et, aliquam est.
+#   - Pellentesque ut fringilla magna.
+# - name: Secondary School Certificate
+#   icon: fa-school
+#   timeframe: 2005-2010
+#   institution:
+#     name: JK School of Science
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 4.5
+#     outOf: 5

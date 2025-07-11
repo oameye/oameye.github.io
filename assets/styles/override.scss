@@ -1,0 +1,16 @@
+/* Used to display background image */
+.home .background {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-position: center;
+    transform: scale(1.0);
+    filter: blur(0px);
+    /*
+    transform: scale(1.1);
+    filter: blur(3px);
+    */
+    background-size: cover;
+}

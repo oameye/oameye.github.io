@@ -12,6 +12,9 @@ jobs:
     steps:
     # checkout to the commit that has been pushed
     - uses: actions/checkout@v4
+      with:
+        submodules: true  # This fetches the submodules
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3.0.0
@@ -35,10 +38,10 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    # push the generated content into the `gh-pages` branch.
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4.0.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./public
+    # Deploy to the submodule repository
+    - name: Deploy to submodule
+      run: |
+        cd public
+        git add .
+        git commit -m "Update site $(date)" || exit 0
+        git push origin maina

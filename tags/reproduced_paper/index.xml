@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reproduced_paper on Orjan Ameye</title>
+    <link>http://localhost:1313/tags/reproduced_paper/</link>
+    <description>Recent content in Reproduced_paper on Orjan Ameye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/reproduced_paper/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Bloch oscillation in a dynamically modulated ring resonator</title>
+      <link>http://localhost:1313/posts/bloch_oscillations/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bloch_oscillations/</guid>
+      <description>We show how a ring resonator with a dynamic refractive index modulation can exhibit Bloch oscillation of light along the frequency axis, as a result of an effective force for photons induced by the modulation.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -151,11 +151,12 @@ fig
 # 3. **Temperature scaling**: The energy follows different power laws in
 #    different temperature regimes
 #
-# ## Advantages of Automatic Differentiation
+# ## Version Information
+
+using InteractiveUtils
+InteractiveUtils.versioninfo()
+
 #
-# Using automatic differentiation provides several benefits:
-# - **Exact derivatives**: No numerical approximation errors
-# - **Efficiency**: Computes derivatives in single forward pass
-# - **Simplicity**: No need to derive analytical expressions manually
-# - **Robustness**: Works with complex recursive functions
-#
+
+using Pkg
+Pkg.status()

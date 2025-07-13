@@ -9,3 +9,4 @@ section:
 # posts to feature
 posts:
   - automatic_differentiation
+  - quantum_fisher_information

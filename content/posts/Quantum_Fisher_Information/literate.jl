@@ -1,5 +1,5 @@
 using DrWatson
-@quickactivate "BosonicGas"
+@quickactivate "QFI"
 projectdir()
 
 using Literate

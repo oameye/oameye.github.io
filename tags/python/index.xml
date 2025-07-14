@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Orjan Ameye</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Orjan Ameye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Preparation of nonclassical states in cavities with a moving mirror</title>
+      <link>http://localhost:1313/posts/phys_rev_a_56_4175_1997/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/phys_rev_a_56_4175_1997/</guid>
+      <description>Reproducing the results of Bose et al. on nonclassical states in cavities with a moving mirror.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

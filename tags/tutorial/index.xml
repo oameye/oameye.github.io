@@ -1,1 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial on Orjan Ameye</title><link>https://oameye.github.io/tags/tutorial/</link><description>Recent content in Tutorial on Orjan Ameye</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://oameye.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Quantum Fisher Information with automatic differentiation</title><link>https://oameye.github.io/posts/quantum_fisher_information/</link><pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate><guid>https://oameye.github.io/posts/quantum_fisher_information/</guid><description>Computation of Quantum Fisher Information for a driven-dissipative Kerr Parametric Oscillator using automatic differentiation.</description></item><item><title>Bloch oscillation in a dynamically modulated ring resonator</title><link>https://oameye.github.io/posts/bloch_oscillations/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://oameye.github.io/posts/bloch_oscillations/</guid><description>We show how a ring resonator with a dynamic refractive index modulation can exhibit Bloch oscillation of light along the frequency axis, as a result of an effective force for photons induced by the modulation.</description></item><item><title>From harmonic oscillator to the parametron</title><link>https://oameye.github.io/posts/parametron/</link><pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate><guid>https://oameye.github.io/posts/parametron/</guid><description>We try to understand the Kerr Parametric Oscillator (KPO) by slowly adding complexity the harmonic oscillator.</description></item><item><title>Automatic differentiation of a recursive partition function</title><link>https://oameye.github.io/posts/automatic_differentiation/</link><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate><guid>https://oameye.github.io/posts/automatic_differentiation/</guid><description>Computing the energy of a bosonic gas in an harmonic trap using automatic differentiation.</description></item><item><title>Diagonalising 2D Schrödinger Equation</title><link>https://oameye.github.io/posts/eigenfunctions/</link><pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate><guid>https://oameye.github.io/posts/eigenfunctions/</guid><description>The eigenfunctions of the time independent Schrödinger equation are numerically computed by discretising with the finite difference method and using exact diagonalisation of sparse matrices.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Orjan Ameye</title>
+    <link>http://localhost:1313/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Orjan Ameye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Quantum Fisher Information with automatic differentiation</title>
+      <link>http://localhost:1313/posts/quantum_fisher_information/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/quantum_fisher_information/</guid>
+      <description>Computation of Quantum Fisher Information for a driven-dissipative Kerr Parametric Oscillator using automatic differentiation.</description>
+    </item>
+    
+    <item>
+      <title>Bloch oscillation in a dynamically modulated ring resonator</title>
+      <link>http://localhost:1313/posts/bloch_oscillations/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/bloch_oscillations/</guid>
+      <description>We show how a ring resonator with a dynamic refractive index modulation can exhibit Bloch oscillation of light along the frequency axis, as a result of an effective force for photons induced by the modulation.</description>
+    </item>
+    
+    <item>
+      <title>From harmonic oscillator to the parametron</title>
+      <link>http://localhost:1313/posts/parametron/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/parametron/</guid>
+      <description>We try to understand the Kerr Parametric Oscillator (KPO) by slowly adding complexity the harmonic oscillator.</description>
+    </item>
+    
+    <item>
+      <title>Automatic differentiation of a recursive partition function</title>
+      <link>http://localhost:1313/posts/automatic_differentiation/</link>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/automatic_differentiation/</guid>
+      <description>Computing the energy of a bosonic gas in an harmonic trap using automatic differentiation.</description>
+    </item>
+    
+    <item>
+      <title>Diagonalising 2D Schrödinger Equation</title>
+      <link>http://localhost:1313/posts/eigenfunctions/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/eigenfunctions/</guid>
+      <description>The eigenfunctions of the time independent Schrödinger equation are numerically computed by discretising with the finite difference method and using exact diagonalisation of sparse matrices.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

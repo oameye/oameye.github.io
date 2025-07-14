@@ -1,839 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Preparation of nonclassical states in cavities with a moving mirror</title>
-    <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-<link rel="stylesheet" href="/application.024e3cf34019721578777d8fc587c283f3053d291941e1d43b32222a2668949e.css" integrity="sha256-Ak4880AZchV4d32PxYfCg/MFPSkZQeHUOzIiKiZolJ4=" />
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-  
-
-  <link rel="icon" type="image/png" href="/images/site/paper-plane-regular_inverted_hu_9166616b26135953.png" />
-
-
-
-
-
-
-
-
-
-
-<meta property="og:title" content="Orjan Ameye"/>
-<meta property="og:type" content="website"/>
-<meta property="og:description" content=""/>
-<meta property="og:image" content="/">
-<meta property="og:url" content="http://localhost:1313/">
-
-    
-<meta name="description" content="Preparation of nonclassical states in cavities with a moving mirror" />
-
-
-
-    
-
-    
-        
-            
-            
-                
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script>
-      <script>
-        var doNotTrack = false;
-        if ( null ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-H4LBG7NDFZ');
-        }
-      </script>
-            
-
-            
-            
-
-            
-            
-
-            
-            
-
-            
-
-            
-
-            
-        
-    
-
-
-
-
-
-    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
-     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
-if (theme === 'system') {
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    theme = 'dark'
-  } else {
-    theme = 'light'
-  }
-}
-document.documentElement.setAttribute('data-theme', theme)
-
-    </script>
-    
-  </head>
-
-  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
-    <div class="container-fluid bg-secondary wrapper">
-      
-      
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-  
-
-
-
-
-
-  
-  
-    
-  
-  
-
-
-
-  
-  
-    
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
-  <div class="container">
-    
-    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
-      <i data-feather="sidebar"></i>
-    </button>
-    
-    <a class="navbar-brand" href="/">
-      
-        <img src="/images/site/paper-plane-regular_hu_376c49fc055415d7.png" id="logo" alt="Logo">
-      Orjan Ameye</a>
-    <button
-      class="navbar-toggler navbar-light"
-      id="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#top-nav-items"
-      aria-label="menu"
-    >
-      <i data-feather="menu"></i>
-    </button>
-
-    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
-      <ul class="nav navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/#home">Home</a>
-        </li>
-        
-          
-          
-            
-              
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="/#about">About</a>
-                </li>
-              
-            
-            
-              
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="/#featured-posts">Featured Posts</a>
-                </li>
-              
-            
-            
-            
-              
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="/#experiences">Experiences</a>
-                </li>
-              
-            
-            
-              
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="/#education">Education</a>
-                </li>
-              
-            
-            
-              
-              
-            
-            
-              
-              
-            
-            
-              
-              
-            
-            
-            
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                
-                
-                  
-                    
-                    
-                  
-                  
-                    
-                    
-                  
-                  
-                  
-                    
-                    
-                  
-                  
-                    
-                    
-                  
-                  
-                    
-                    
-                      <a class="dropdown-item" href="/#projects">Projects</a>
-                    
-                  
-                  
-                    
-                    
-                      <a class="dropdown-item" href="/#publications">Publications</a>
-                    
-                  
-                  
-                    
-                    
-                      <a class="dropdown-item" href="/#recent-posts">Recent Posts</a>
-                    
-                  
-                  
-                  
-              </div>
-            </li>
-          
-        
-        
-          <div id="top-navbar-divider"></div>
-        
-        
-          <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
-          </li>
-        
-        
-          <li class="nav-item">
-            <a class="nav-link" id="note-link" href="/notes">Notes</a>
-          </li>
-        
-        
-        
-        
-      </ul>
-    </div>
-  </div>
-  
-  
-    <img src="/images/site/paper-plane-regular_hu_376c49fc055415d7.png" class="d-none" id="main-logo" alt="Logo">
-  
-  
-    <img src="/images/site/paper-plane-regular_inverted_hu_9166616b26135953.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
-  
-  
-</nav>
-
-
-
-      
-      
-  <section class="sidebar-section" id="sidebar-section">
-    <div class="sidebar-holder">
-      <div class="sidebar" id="sidebar">
-        <form class="mx-auto" method="get" action="/search">
-          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
-        </form>
-        <div class="sidebar-tree">
-          <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
-            <div class="subtree">
-                
-  
-  
-  
-  
-  
-    
-    <li><a class=" list-link" href="/posts/automatic_differentiation/" title="Automatic differentiation">Automatic differentiation</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class=" list-link" href="/posts/eigenfunctions/" title="Ground state eigenfunctions">Ground state eigenfunctions</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class=" list-link" href="/posts/parametron/" title="Parametric resonator">Parametric resonator</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li><a class=" list-link" href="/posts/quantum_fisher_information/" title="Quantum Fisher Information">Quantum Fisher Information</a></li>
-  
-
-  
-  
-  
-  
-    
-    
-  
-  
-    
-    <li>
-      <i data-feather="minus-circle"></i><a class="active list-link" href=""> reproduced_papers</a>
-      
-      <ul class="active">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class=" list-link" href="/posts/bloch_oscillations/" title="Optica 3(9) 1014-1018 (2016)">Optica 3(9) 1014-1018 (2016)</a></li>
-  
-
-  
-  
-  
-  
-    
-    
-  
-  
-    
-    <li><a class="active list-link" href="/posts/phys_rev_a_56_4175_1997/" title="Phys. Rev. A 56, 4175 (1997)">Phys. Rev. A 56, 4175 (1997)</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-
-            </div>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-      
-      
-<section class="content-section" id="content-section">
-  <div class="content">
-    <div class="container p-0 read-area">
-      
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/posts/phys_rev_a_56_4175_1997/preview.png);'>
-      </div>
-
-      
-      <div class="page-content">
-        
-        <div style="margin-bottom: 80px;"></div>
-        
-
-        <div class="title">
-          <h1>Preparation of nonclassical states in cavities with a moving mirror</h1>
-        </div>
-
-        
-        <div class="author-profile ms-auto align-self-lg-center">
-          <p class="text-muted">Monday, July 14, 2025 | 5 minutes</p>
-        </div>
-        
-
-        
-          <div class="tags">
-  <ul style="padding-left: 0;">
-    
-    
-    <li class="rounded"><a href="/tags/python/" class="btn btn-sm btn-info">python</a></li>
-    
-    
-    <li class="rounded"><a href="/tags/reproduced-paper/" class="btn btn-sm btn-info">Reproduced paper</a></li>
-    
-    
-    <li class="rounded"><a href="/tags/qutip/" class="btn btn-sm btn-info">qutip</a></li>
-    
-  </ul>
-</div>
-
-        
-        <div class="post-content" id="post-content">
-          <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">%</span>matplotlib inline
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> numpy <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> qutip <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
-</span></span></code></pre></div><h2 id="introduction">Introduction</h2>
-<p>In Bose et al. PRA 56, 4175 (1997), the authors consider the preparation of nonclassical states in cavities with moving mirror. The nonclassical states are achived by letting the system evolve for a specific duration of time. Here we reproduce some of the results of Bose et al.using numberical simulations of the Schrodinger and master equations using QuTiP.</p>
-<h2 id="hamiltonian-and-initial-state">Hamiltonian and initial state</h2>
-<p>The Hamiltonian of the cavity with a moving mirror is</p>
-<p>$H = \hbar\omega_0 a^\dagger a + \hbar\omega_m b^\dagger b - \hbar g a^\dagger a (b + b^\dagger)$</p>
-<p>where $\omega_0$ is the cavity frequency, $\omega_m$ is the frequency of the oscillation mode of the mirror and $g$ is the opto-mechanical coupling strength. The creation operators of the cavity mode and the mirror mode are $a$ and $b$, respectively.</p>
-<p>The initial states of the cavity mode and the mirror mode are in the coherent states $|\alpha\rangle$ and $|\beta\rangle$, respectively.</p>
-<h2 id="undamped-dynamics">Undamped dynamics</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># number of fock states in the cavity and mirror modes</span>
-</span></span><span style="display:flex;"><span>N <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>
-</span></span><span style="display:flex;"><span>M <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>
-</span></span><span style="display:flex;"><span>r <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">solve_dynamics_undamped</span>(r, k, alpha, beta, t, N, M):
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    wm <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>    w0 <span style="color:#f92672">=</span> r <span style="color:#f92672">*</span> wm
-</span></span><span style="display:flex;"><span>    g  <span style="color:#f92672">=</span> k <span style="color:#f92672">*</span> wm
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    a <span style="color:#f92672">=</span> tensor(destroy(N), identity(M))
-</span></span><span style="display:flex;"><span>    b <span style="color:#f92672">=</span> tensor(identity(N), destroy(M))
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    H <span style="color:#f92672">=</span> w0 <span style="color:#f92672">*</span> a<span style="color:#f92672">.</span>dag() <span style="color:#f92672">*</span> a <span style="color:#f92672">+</span> wm <span style="color:#f92672">*</span> b<span style="color:#f92672">.</span>dag() <span style="color:#f92672">*</span> b <span style="color:#f92672">-</span> g <span style="color:#f92672">*</span> a<span style="color:#f92672">.</span>dag() <span style="color:#f92672">*</span> a <span style="color:#f92672">*</span> (b <span style="color:#f92672">+</span> b<span style="color:#f92672">.</span>dag())
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    psi0 <span style="color:#f92672">=</span> tensor(coherent(N, alpha), coherent(M, beta))
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    options <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;nsteps&#34;</span>: <span style="color:#ae81ff">15_000</span>}
-</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> mesolve(H, psi0, t, options<span style="color:#f92672">=</span>options)
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> result, expect(commutator(a, a<span style="color:#f92672">.</span>dag()), result<span style="color:#f92672">.</span>states), expect(commutator(b, b<span style="color:#f92672">.</span>dag()), result<span style="color:#f92672">.</span>states)
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#return result, expect(a.dag() * a, result.states), expect(b.dag() * b, result.states)</span>
-</span></span></code></pre></div><h3 id="figure-1-in-bose-et-al">Figure 1 in Bose et al.</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t <span style="color:#f92672">=</span> linspace(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> pi, <span style="color:#ae81ff">50</span>)
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>alpha <span style="color:#f92672">=</span> beta <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result, C1_A, C1_B <span style="color:#f92672">=</span> solve_dynamics_undamped(r, <span style="color:#ae81ff">0.1</span>, alpha, beta, t, N, M)
-</span></span><span style="display:flex;"><span>S1 <span style="color:#f92672">=</span> [entropy_linear(ptrace(rho, <span style="color:#ae81ff">1</span>)) <span style="color:#66d9ef">for</span> rho <span style="color:#f92672">in</span> result<span style="color:#f92672">.</span>states]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result, C2_A, C2_B <span style="color:#f92672">=</span> solve_dynamics_undamped(r, <span style="color:#ae81ff">0.5</span>, alpha, beta, t, N, <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>M)
-</span></span><span style="display:flex;"><span>S2 <span style="color:#f92672">=</span> [entropy_linear(ptrace(rho, <span style="color:#ae81ff">1</span>)) <span style="color:#66d9ef">for</span> rho <span style="color:#f92672">in</span> result<span style="color:#f92672">.</span>states]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result, C3_A, C3_B <span style="color:#f92672">=</span> solve_dynamics_undamped(r, <span style="color:#ae81ff">1.0</span>, alpha, beta, t, N, <span style="color:#ae81ff">10</span><span style="color:#f92672">*</span>M)
-</span></span><span style="display:flex;"><span>S3 <span style="color:#f92672">=</span> [entropy_linear(ptrace(rho, <span style="color:#ae81ff">1</span>)) <span style="color:#66d9ef">for</span> rho <span style="color:#f92672">in</span> result<span style="color:#f92672">.</span>states]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, ax <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">5</span>))
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>plot(t, S1, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.1$&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>plot(t, S2, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.5$&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>plot(t, S3, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 1.0$&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>legend()
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#39;Linear entropy of the mirror&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_xlabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$t$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_ylabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$S$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_xlim(<span style="color:#ae81ff">0</span>, t<span style="color:#f92672">.</span>max());
-</span></span></code></pre></div><p><img src="/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_19_0.png" alt="png"></p>
-<p>Since the dynamics here is undamped the quantum state is pure, and a nonzero entropy of a the subsystem of the mirror demonstrates that the mirror is entangled with the cavity field.</p>
-<h3 id="check-hilbert-space-truncation">Check Hilbert space truncation</h3>
-<p>As a check to make sure that we have use a sufficiently large Hilbert space in the calcuation above we plot the expectation value of the commutators $[a, a^\dagger]$ and $[b , b^\dagger]$ which should be very close to 1 if the Fock-state basis truncation that we used above is OK.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">16</span>,<span style="color:#ae81ff">5</span>))
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>plot(t, C1_A, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.1$&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>plot(t, C2_A, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.5$&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>plot(t, C3_A, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 1.0$&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>legend()
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#39;[a, a.dag()]&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>set_xlabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$t$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>set_ylabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$S$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>);
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>set_ylim(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1.1</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>plot(t, C1_B, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.1$&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>plot(t, C2_B, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.5$&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>plot(t, C3_B, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 1.0$&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>legend()
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#39;[b, b.dag()]]&#39;</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>set_xlabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$t$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>set_ylabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$S$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>)
-</span></span><span style="display:flex;"><span>axes[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>set_ylim(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1.1</span>);
-</span></span></code></pre></div><p><img src="/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_23_0.png" alt="png"></p>
-<h3 id="figure-2-in-bose-et-al">Figure 2 in Bose et al.</h3>
-<p>The wigner function of the mirror for various times $t$.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>, pi<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>, pi, <span style="color:#ae81ff">3</span><span style="color:#f92672">*</span>pi<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>pi]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result, C_A, C_B <span style="color:#f92672">=</span> solve_dynamics_undamped(r, <span style="color:#ae81ff">0.3</span>, alpha, beta, t, N, M)
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(len(t), <span style="color:#ae81ff">2</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">16</span>))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> idx, rho <span style="color:#f92672">in</span> enumerate(result<span style="color:#f92672">.</span>states):
-</span></span><span style="display:flex;"><span>    rho_mirror <span style="color:#f92672">=</span> ptrace(rho, <span style="color:#ae81ff">1</span>)
-</span></span><span style="display:flex;"><span>    plot_fock_distribution(rho_mirror, fig<span style="color:#f92672">=</span>fig, ax<span style="color:#f92672">=</span>axes[idx, <span style="color:#ae81ff">0</span>])
-</span></span><span style="display:flex;"><span>    plot_wigner(rho_mirror, fig<span style="color:#f92672">=</span>fig, ax<span style="color:#f92672">=</span>axes[idx, <span style="color:#ae81ff">1</span>])
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>fig<span style="color:#f92672">.</span>tight_layout()
-</span></span></code></pre></div><p><img src="/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_28_0.png" alt="png"></p>
-<p>The mirror wigner functions are always positive and the mirror therefore always in a classical state.</p>
-<h3 id="figure-3-in-bose-et-al">Figure 3 in Bose et al.</h3>
-<p>The wigner function of the cavity field at $t = 2\pi$, for three different values of $k$.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>pi]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>k_vec <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0.5</span>, <span style="color:#ae81ff">0.4082</span>, <span style="color:#ae81ff">0.3536</span>]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>states <span style="color:#f92672">=</span> [solve_dynamics_undamped(r, k, alpha, beta, t, <span style="color:#ae81ff">3</span><span style="color:#f92672">*</span>N, <span style="color:#ae81ff">3</span><span style="color:#f92672">*</span>M)[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>states[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> k_vec]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(len(k_vec), <span style="color:#ae81ff">2</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">12</span>))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> idx, rho <span style="color:#f92672">in</span> enumerate(states):
-</span></span><span style="display:flex;"><span>    rho_cavity <span style="color:#f92672">=</span> ptrace(rho, <span style="color:#ae81ff">0</span>)
-</span></span><span style="display:flex;"><span>    plot_fock_distribution(rho_cavity, fig<span style="color:#f92672">=</span>fig, ax<span style="color:#f92672">=</span>axes[idx, <span style="color:#ae81ff">0</span>])
-</span></span><span style="display:flex;"><span>    plot_wigner(rho_cavity, fig<span style="color:#f92672">=</span>fig, ax<span style="color:#f92672">=</span>axes[idx, <span style="color:#ae81ff">1</span>])
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>fig<span style="color:#f92672">.</span>tight_layout()
-</span></span></code></pre></div><p><img src="/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_35_0.png" alt="png"></p>
-<p>For these particular parameters the cavity field is prepared in superpositions of two, three and four coherent states, respectively.</p>
-<h2 id="damped-dynamics">Damped dynamics</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># number of fock states in the cavity and mirror modes</span>
-</span></span><span style="display:flex;"><span>N <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>M <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">solve_dynamics_damped</span>(r, k, gamma, alpha, beta, t, N, M):
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    wm <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>    w0 <span style="color:#f92672">=</span> r <span style="color:#f92672">*</span> wm
-</span></span><span style="display:flex;"><span>    g  <span style="color:#f92672">=</span> k <span style="color:#f92672">*</span> wm
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    a <span style="color:#f92672">=</span> tensor(destroy(N), identity(M))
-</span></span><span style="display:flex;"><span>    b <span style="color:#f92672">=</span> tensor(identity(N), destroy(M))
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    H <span style="color:#f92672">=</span> w0 <span style="color:#f92672">*</span> a<span style="color:#f92672">.</span>dag() <span style="color:#f92672">*</span> a <span style="color:#f92672">+</span> wm <span style="color:#f92672">*</span> b<span style="color:#f92672">.</span>dag() <span style="color:#f92672">*</span> b <span style="color:#f92672">-</span> g <span style="color:#f92672">*</span> a<span style="color:#f92672">.</span>dag() <span style="color:#f92672">*</span> a <span style="color:#f92672">*</span> (b <span style="color:#f92672">+</span> b<span style="color:#f92672">.</span>dag())
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    psi0 <span style="color:#f92672">=</span> tensor(coherent(N, alpha), coherent(M, beta))
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    c_ops <span style="color:#f92672">=</span> [sqrt(gamma) <span style="color:#f92672">*</span> b]
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    options <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;nsteps&#34;</span>: <span style="color:#ae81ff">15_000</span>, <span style="color:#e6db74">&#34;progress_bar&#34;</span>: <span style="color:#e6db74">&#34;enhanced&#34;</span>}
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> mesolve(H, psi0, t, c_ops, options<span style="color:#f92672">=</span>options)
-</span></span></code></pre></div><h3 id="figure-6-in-bose-et-al">Figure 6 in Bose et al.</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>gamma <span style="color:#f92672">=</span> <span style="color:#ae81ff">1.0</span>
-</span></span><span style="display:flex;"><span>alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
-</span></span><span style="display:flex;"><span>beta <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t <span style="color:#f92672">=</span> linspace(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> pi, <span style="color:#ae81ff">25</span>)
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>S1 <span style="color:#f92672">=</span> [entropy_linear(ptrace(rho, <span style="color:#ae81ff">1</span>)) <span style="color:#66d9ef">for</span> rho <span style="color:#f92672">in</span> solve_dynamics_damped(r, <span style="color:#ae81ff">0.1</span>, gamma, alpha, beta, t, N, M)<span style="color:#f92672">.</span>states]
+<!doctype html><html lang=en><head><title>Preparation of nonclassical states in cavities with a moving mirror</title><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.cc971cdbc2ebfe7afcea9dcb21c92f48a71e3d942fc0029183f03684cb4b4137.css integrity="sha256-zJcc28Lr/nr86p3LIckvSKcePZQvwAKRg/A2hMtLQTc="><link rel=icon type=image/png href=/images/site/paper-plane-regular_inverted_hu_9166616b26135953.png><meta property="og:title" content="Orjan Ameye"><meta property="og:type" content="website"><meta property="og:description" content><meta property="og:image" content="/"><meta property="og:url" content="https://oameye.github.io/"><meta name=description content="Preparation of nonclassical states in cavities with a moving mirror"><script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script><script>var dnt,doNotTrack=!1;if(null&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-H4LBG7NDFZ")}</script><script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">let theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light";theme==="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-posts kind-page" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
+<i data-feather=sidebar></i>
+</button>
+<a class=navbar-brand href=/><img src=/images/site/paper-plane-regular_hu_376c49fc055415d7.png id=logo alt=Logo>
+Orjan Ameye</a>
+<button class="navbar-toggler navbar-light" id=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#top-nav-items aria-label=menu>
+<i data-feather=menu></i></button><div class="collapse navbar-collapse dynamic-navbar" id=top-nav-items><ul class="nav navbar-nav ms-auto"><li class=nav-item><a class=nav-link href=/#home>Home</a></li><li class=nav-item><a class=nav-link href=/#about>About</a></li><li class=nav-item><a class=nav-link href=/#featured-posts>Featured Posts</a></li><li class=nav-item><a class=nav-link href=/#experiences>Experiences</a></li><li class=nav-item><a class=nav-link href=/#education>Education</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-bs-toggle=dropdown aria-haspopup=true aria-expanded=false>More</a><div class=dropdown-menu aria-labelledby=navbarDropdown><a class=dropdown-item href=/#projects>Projects</a>
+<a class=dropdown-item href=/#publications>Publications</a>
+<a class=dropdown-item href=/#recent-posts>Recent Posts</a></div></li><div id=top-navbar-divider></div><li class=nav-item><a class=nav-link id=blog-link href=/posts>Posts</a></li><li class=nav-item><a class=nav-link id=note-link href=/notes>Notes</a></li></ul></div></div><img src=/images/site/paper-plane-regular_hu_376c49fc055415d7.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/paper-plane-regular_inverted_hu_9166616b26135953.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts/ data-filter=all>Posts</a></li><div class=subtree><li><a class=list-link href=/posts/automatic_differentiation/ title="Automatic differentiation">Automatic differentiation</a></li><li><a class=list-link href=/posts/eigenfunctions/ title="Ground state eigenfunctions">Ground state eigenfunctions</a></li><li><a class=list-link href=/posts/parametron/ title="Parametric resonator">Parametric resonator</a></li><li><a class=list-link href=/posts/quantum_fisher_information/ title="Quantum Fisher Information">Quantum Fisher Information</a></li><li><i data-feather=minus-circle></i><a class="active list-link" href> reproduced_papers</a><ul class=active><li><a class=list-link href=/posts/bloch_oscillations/ title="Optica 3(9) 1014-1018 (2016)">Optica 3(9) 1014-1018 (2016)</a></li><li><a class="active list-link" href=/posts/phys_rev_a_56_4175_1997/ title="Phys. Rev. A 56, 4175 (1997)">Phys. Rev. A 56, 4175 (1997)</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/posts/phys_rev_a_56_4175_1997/preview.png)></div><div class=page-content><div style=margin-bottom:80px></div><div class=title><h1>Preparation of nonclassical states in cavities with a moving mirror</h1></div><div class="author-profile ms-auto align-self-lg-center"><p class=text-muted>Monday, July 14, 2025 | 5 minutes</p></div><div class=tags><ul style=padding-left:0><li class=rounded><a href=/tags/python/ class="btn btn-sm btn-info">python</a></li><li class=rounded><a href=/tags/reproduced-paper/ class="btn btn-sm btn-info">Reproduced paper</a></li><li class=rounded><a href=/tags/qutip/ class="btn btn-sm btn-info">qutip</a></li></ul></div><div class=post-content id=post-content><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>%</span>matplotlib inline
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>from</span> numpy <span style=color:#f92672>import</span> <span style=color:#f92672>*</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>import</span> matplotlib.pyplot <span style=color:#66d9ef>as</span> plt
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>from</span> qutip <span style=color:#f92672>import</span> <span style=color:#f92672>*</span>
+</span></span></code></pre></div><h2 id=introduction>Introduction</h2><p>In Bose et al. PRA 56, 4175 (1997), the authors consider the preparation of nonclassical states in cavities with moving mirror. The nonclassical states are achived by letting the system evolve for a specific duration of time. Here we reproduce some of the results of Bose et al.using numberical simulations of the Schrodinger and master equations using QuTiP.</p><h2 id=hamiltonian-and-initial-state>Hamiltonian and initial state</h2><p>The Hamiltonian of the cavity with a moving mirror is</p><p>$H = \hbar\omega_0 a^\dagger a + \hbar\omega_m b^\dagger b - \hbar g a^\dagger a (b + b^\dagger)$</p><p>where $\omega_0$ is the cavity frequency, $\omega_m$ is the frequency of the oscillation mode of the mirror and $g$ is the opto-mechanical coupling strength. The creation operators of the cavity mode and the mirror mode are $a$ and $b$, respectively.</p><p>The initial states of the cavity mode and the mirror mode are in the coherent states $|\alpha\rangle$ and $|\beta\rangle$, respectively.</p><h2 id=undamped-dynamics>Undamped dynamics</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#75715e># number of fock states in the cavity and mirror modes</span>
+</span></span><span style=display:flex><span>N <span style=color:#f92672>=</span> <span style=color:#ae81ff>15</span>
+</span></span><span style=display:flex><span>M <span style=color:#f92672>=</span> <span style=color:#ae81ff>30</span>
+</span></span><span style=display:flex><span>r <span style=color:#f92672>=</span> <span style=color:#ae81ff>1.0</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>solve_dynamics_undamped</span>(r, k, alpha, beta, t, N, M):
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    wm <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>    w0 <span style=color:#f92672>=</span> r <span style=color:#f92672>*</span> wm
+</span></span><span style=display:flex><span>    g  <span style=color:#f92672>=</span> k <span style=color:#f92672>*</span> wm
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    a <span style=color:#f92672>=</span> tensor(destroy(N), identity(M))
+</span></span><span style=display:flex><span>    b <span style=color:#f92672>=</span> tensor(identity(N), destroy(M))
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    H <span style=color:#f92672>=</span> w0 <span style=color:#f92672>*</span> a<span style=color:#f92672>.</span>dag() <span style=color:#f92672>*</span> a <span style=color:#f92672>+</span> wm <span style=color:#f92672>*</span> b<span style=color:#f92672>.</span>dag() <span style=color:#f92672>*</span> b <span style=color:#f92672>-</span> g <span style=color:#f92672>*</span> a<span style=color:#f92672>.</span>dag() <span style=color:#f92672>*</span> a <span style=color:#f92672>*</span> (b <span style=color:#f92672>+</span> b<span style=color:#f92672>.</span>dag())
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    psi0 <span style=color:#f92672>=</span> tensor(coherent(N, alpha), coherent(M, beta))
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    options <span style=color:#f92672>=</span> {<span style=color:#e6db74>&#34;nsteps&#34;</span>: <span style=color:#ae81ff>15_000</span>}
+</span></span><span style=display:flex><span>    result <span style=color:#f92672>=</span> mesolve(H, psi0, t, options<span style=color:#f92672>=</span>options)
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> result, expect(commutator(a, a<span style=color:#f92672>.</span>dag()), result<span style=color:#f92672>.</span>states), expect(commutator(b, b<span style=color:#f92672>.</span>dag()), result<span style=color:#f92672>.</span>states)
+</span></span><span style=display:flex><span>    <span style=color:#75715e>#return result, expect(a.dag() * a, result.states), expect(b.dag() * b, result.states)</span>
+</span></span></code></pre></div><h3 id=figure-1-in-bose-et-al>Figure 1 in Bose et al.</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>t <span style=color:#f92672>=</span> linspace(<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>2</span> <span style=color:#f92672>*</span> pi, <span style=color:#ae81ff>50</span>)
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>alpha <span style=color:#f92672>=</span> beta <span style=color:#f92672>=</span> <span style=color:#ae81ff>2</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>result, C1_A, C1_B <span style=color:#f92672>=</span> solve_dynamics_undamped(r, <span style=color:#ae81ff>0.1</span>, alpha, beta, t, N, M)
+</span></span><span style=display:flex><span>S1 <span style=color:#f92672>=</span> [entropy_linear(ptrace(rho, <span style=color:#ae81ff>1</span>)) <span style=color:#66d9ef>for</span> rho <span style=color:#f92672>in</span> result<span style=color:#f92672>.</span>states]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>result, C2_A, C2_B <span style=color:#f92672>=</span> solve_dynamics_undamped(r, <span style=color:#ae81ff>0.5</span>, alpha, beta, t, N, <span style=color:#ae81ff>2</span><span style=color:#f92672>*</span>M)
+</span></span><span style=display:flex><span>S2 <span style=color:#f92672>=</span> [entropy_linear(ptrace(rho, <span style=color:#ae81ff>1</span>)) <span style=color:#66d9ef>for</span> rho <span style=color:#f92672>in</span> result<span style=color:#f92672>.</span>states]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>result, C3_A, C3_B <span style=color:#f92672>=</span> solve_dynamics_undamped(r, <span style=color:#ae81ff>1.0</span>, alpha, beta, t, N, <span style=color:#ae81ff>10</span><span style=color:#f92672>*</span>M)
+</span></span><span style=display:flex><span>S3 <span style=color:#f92672>=</span> [entropy_linear(ptrace(rho, <span style=color:#ae81ff>1</span>)) <span style=color:#66d9ef>for</span> rho <span style=color:#f92672>in</span> result<span style=color:#f92672>.</span>states]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, ax <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>5</span>))
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>plot(t, S1, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.1$&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>plot(t, S2, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.5$&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>plot(t, S3, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 1.0$&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>legend()
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#39;Linear entropy of the mirror&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_xlabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$t$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_ylabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$S$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_xlim(<span style=color:#ae81ff>0</span>, t<span style=color:#f92672>.</span>max());
+</span></span></code></pre></div><p><img src=/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_19_0.png alt=png></p><p>Since the dynamics here is undamped the quantum state is pure, and a nonzero entropy of a the subsystem of the mirror demonstrates that the mirror is entangled with the cavity field.</p><h3 id=check-hilbert-space-truncation>Check Hilbert space truncation</h3><p>As a check to make sure that we have use a sufficiently large Hilbert space in the calcuation above we plot the expectation value of the commutators $[a, a^\dagger]$ and $[b , b^\dagger]$ which should be very close to 1 if the Fock-state basis truncation that we used above is OK.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(<span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>16</span>,<span style=color:#ae81ff>5</span>))
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>plot(t, C1_A, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.1$&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>plot(t, C2_A, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.5$&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>plot(t, C3_A, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 1.0$&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>legend()
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#39;[a, a.dag()]&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>set_xlabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$t$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>set_ylabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$S$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>);
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>set_ylim(<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>1.1</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>plot(t, C1_B, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.1$&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>plot(t, C2_B, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.5$&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>plot(t, C3_B, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 1.0$&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>legend()
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#39;[b, b.dag()]]&#39;</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>set_xlabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$t$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>set_ylabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$S$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>)
+</span></span><span style=display:flex><span>axes[<span style=color:#ae81ff>1</span>]<span style=color:#f92672>.</span>set_ylim(<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>1.1</span>);
+</span></span></code></pre></div><p><img src=/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_23_0.png alt=png></p><h3 id=figure-2-in-bose-et-al>Figure 2 in Bose et al.</h3><p>The wigner function of the mirror for various times $t$.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>t <span style=color:#f92672>=</span> [<span style=color:#ae81ff>0</span>, pi<span style=color:#f92672>/</span><span style=color:#ae81ff>2</span>, pi, <span style=color:#ae81ff>3</span><span style=color:#f92672>*</span>pi<span style=color:#f92672>/</span><span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>2</span><span style=color:#f92672>*</span>pi]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>result, C_A, C_B <span style=color:#f92672>=</span> solve_dynamics_undamped(r, <span style=color:#ae81ff>0.3</span>, alpha, beta, t, N, M)
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(len(t), <span style=color:#ae81ff>2</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>16</span>))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> idx, rho <span style=color:#f92672>in</span> enumerate(result<span style=color:#f92672>.</span>states):
+</span></span><span style=display:flex><span>    rho_mirror <span style=color:#f92672>=</span> ptrace(rho, <span style=color:#ae81ff>1</span>)
+</span></span><span style=display:flex><span>    plot_fock_distribution(rho_mirror, fig<span style=color:#f92672>=</span>fig, ax<span style=color:#f92672>=</span>axes[idx, <span style=color:#ae81ff>0</span>])
+</span></span><span style=display:flex><span>    plot_wigner(rho_mirror, fig<span style=color:#f92672>=</span>fig, ax<span style=color:#f92672>=</span>axes[idx, <span style=color:#ae81ff>1</span>])
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>fig<span style=color:#f92672>.</span>tight_layout()
+</span></span></code></pre></div><p><img src=/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_28_0.png alt=png></p><p>The mirror wigner functions are always positive and the mirror therefore always in a classical state.</p><h3 id=figure-3-in-bose-et-al>Figure 3 in Bose et al.</h3><p>The wigner function of the cavity field at $t = 2\pi$, for three different values of $k$.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>t <span style=color:#f92672>=</span> [<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>2</span><span style=color:#f92672>*</span>pi]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>k_vec <span style=color:#f92672>=</span> [<span style=color:#ae81ff>0.5</span>, <span style=color:#ae81ff>0.4082</span>, <span style=color:#ae81ff>0.3536</span>]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>states <span style=color:#f92672>=</span> [solve_dynamics_undamped(r, k, alpha, beta, t, <span style=color:#ae81ff>3</span><span style=color:#f92672>*</span>N, <span style=color:#ae81ff>3</span><span style=color:#f92672>*</span>M)[<span style=color:#ae81ff>0</span>]<span style=color:#f92672>.</span>states[<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>] <span style=color:#66d9ef>for</span> k <span style=color:#f92672>in</span> k_vec]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(len(k_vec), <span style=color:#ae81ff>2</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>12</span>))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> idx, rho <span style=color:#f92672>in</span> enumerate(states):
+</span></span><span style=display:flex><span>    rho_cavity <span style=color:#f92672>=</span> ptrace(rho, <span style=color:#ae81ff>0</span>)
+</span></span><span style=display:flex><span>    plot_fock_distribution(rho_cavity, fig<span style=color:#f92672>=</span>fig, ax<span style=color:#f92672>=</span>axes[idx, <span style=color:#ae81ff>0</span>])
+</span></span><span style=display:flex><span>    plot_wigner(rho_cavity, fig<span style=color:#f92672>=</span>fig, ax<span style=color:#f92672>=</span>axes[idx, <span style=color:#ae81ff>1</span>])
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>fig<span style=color:#f92672>.</span>tight_layout()
+</span></span></code></pre></div><p><img src=/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_35_0.png alt=png></p><p>For these particular parameters the cavity field is prepared in superpositions of two, three and four coherent states, respectively.</p><h2 id=damped-dynamics>Damped dynamics</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#75715e># number of fock states in the cavity and mirror modes</span>
+</span></span><span style=display:flex><span>N <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>
+</span></span><span style=display:flex><span>M <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#66d9ef>def</span> <span style=color:#a6e22e>solve_dynamics_damped</span>(r, k, gamma, alpha, beta, t, N, M):
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    wm <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>    w0 <span style=color:#f92672>=</span> r <span style=color:#f92672>*</span> wm
+</span></span><span style=display:flex><span>    g  <span style=color:#f92672>=</span> k <span style=color:#f92672>*</span> wm
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    a <span style=color:#f92672>=</span> tensor(destroy(N), identity(M))
+</span></span><span style=display:flex><span>    b <span style=color:#f92672>=</span> tensor(identity(N), destroy(M))
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    H <span style=color:#f92672>=</span> w0 <span style=color:#f92672>*</span> a<span style=color:#f92672>.</span>dag() <span style=color:#f92672>*</span> a <span style=color:#f92672>+</span> wm <span style=color:#f92672>*</span> b<span style=color:#f92672>.</span>dag() <span style=color:#f92672>*</span> b <span style=color:#f92672>-</span> g <span style=color:#f92672>*</span> a<span style=color:#f92672>.</span>dag() <span style=color:#f92672>*</span> a <span style=color:#f92672>*</span> (b <span style=color:#f92672>+</span> b<span style=color:#f92672>.</span>dag())
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    psi0 <span style=color:#f92672>=</span> tensor(coherent(N, alpha), coherent(M, beta))
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    c_ops <span style=color:#f92672>=</span> [sqrt(gamma) <span style=color:#f92672>*</span> b]
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    options <span style=color:#f92672>=</span> {<span style=color:#e6db74>&#34;nsteps&#34;</span>: <span style=color:#ae81ff>15_000</span>, <span style=color:#e6db74>&#34;progress_bar&#34;</span>: <span style=color:#e6db74>&#34;enhanced&#34;</span>}
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> mesolve(H, psi0, t, c_ops, options<span style=color:#f92672>=</span>options)
+</span></span></code></pre></div><h3 id=figure-6-in-bose-et-al>Figure 6 in Bose et al.</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>gamma <span style=color:#f92672>=</span> <span style=color:#ae81ff>1.0</span>
+</span></span><span style=display:flex><span>alpha <span style=color:#f92672>=</span> <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>beta <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>t <span style=color:#f92672>=</span> linspace(<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>2</span> <span style=color:#f92672>*</span> pi, <span style=color:#ae81ff>25</span>)
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>S1 <span style=color:#f92672>=</span> [entropy_linear(ptrace(rho, <span style=color:#ae81ff>1</span>)) <span style=color:#66d9ef>for</span> rho <span style=color:#f92672>in</span> solve_dynamics_damped(r, <span style=color:#ae81ff>0.1</span>, gamma, alpha, beta, t, N, M)<span style=color:#f92672>.</span>states]
 </span></span></code></pre></div><pre><code> [**        8%           ] Elapsed 0.02s / Remaining 00:00:00:00
 
  Total run time:   0.18s*] Elapsed 0.18s / Remaining 00:00:00:00
-</code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>S2 <span style="color:#f92672">=</span> [entropy_linear(ptrace(rho, <span style="color:#ae81ff">1</span>)) <span style="color:#66d9ef">for</span> rho <span style="color:#f92672">in</span> solve_dynamics_damped(r, <span style="color:#ae81ff">0.5</span>, gamma, alpha, beta, t, N, M)<span style="color:#f92672">.</span>states]
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>S2 <span style=color:#f92672>=</span> [entropy_linear(ptrace(rho, <span style=color:#ae81ff>1</span>)) <span style=color:#66d9ef>for</span> rho <span style=color:#f92672>in</span> solve_dynamics_damped(r, <span style=color:#ae81ff>0.5</span>, gamma, alpha, beta, t, N, M)<span style=color:#f92672>.</span>states]
 </span></span></code></pre></div><pre><code> Total run time:   0.34s*] Elapsed 0.34s / Remaining 00:00:00:00
-</code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>S3 <span style="color:#f92672">=</span> [entropy_linear(ptrace(rho, <span style="color:#ae81ff">1</span>)) <span style="color:#66d9ef">for</span> rho <span style="color:#f92672">in</span> solve_dynamics_damped(r, <span style="color:#ae81ff">1.0</span>, gamma, alpha, beta, t, N, M)<span style="color:#f92672">.</span>states]
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>S3 <span style=color:#f92672>=</span> [entropy_linear(ptrace(rho, <span style=color:#ae81ff>1</span>)) <span style=color:#66d9ef>for</span> rho <span style=color:#f92672>in</span> solve_dynamics_damped(r, <span style=color:#ae81ff>1.0</span>, gamma, alpha, beta, t, N, M)<span style=color:#f92672>.</span>states]
 </span></span></code></pre></div><pre><code> Total run time:   0.69s*] Elapsed 0.69s / Remaining 00:00:00:00
-</code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, ax <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">5</span>))
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>plot(t, S1, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.1$&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>plot(t, S2, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 0.5$&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>plot(t, S3, label<span style="color:#f92672">=</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$k = 1.0$&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>legend()
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_title(<span style="color:#e6db74">&#39;Linear entropy of the mirror&#39;</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_xlabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$t$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_ylabel(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;$S$&#39;</span>, fontsize<span style="color:#f92672">=</span><span style="color:#ae81ff">18</span>)
-</span></span><span style="display:flex;"><span>ax<span style="color:#f92672">.</span>set_xlim(<span style="color:#ae81ff">0</span>, t<span style="color:#f92672">.</span>max());
-</span></span></code></pre></div><p><img src="/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_46_0.png" alt="png"></p>
-<h3 id="figure-7-in-bose-et-al">Figure 7 in Bose et al.</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>t <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>pi]
-</span></span><span style="display:flex;"><span>k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span>
-</span></span><span style="display:flex;"><span>alpha <span style="color:#f92672">=</span> beta <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>gamma_vec <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0.001</span>, <span style="color:#ae81ff">0.01</span>, <span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">1.0</span>]
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>states <span style="color:#f92672">=</span> [solve_dynamics_damped(r, k, gamma, alpha, beta, t, <span style="color:#ae81ff">3</span><span style="color:#f92672">*</span>N, <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>M)<span style="color:#f92672">.</span>states[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">for</span> gamma <span style="color:#f92672">in</span> gamma_vec]
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, ax <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>5</span>))
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>plot(t, S1, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.1$&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>plot(t, S2, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 0.5$&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>plot(t, S3, label<span style=color:#f92672>=</span><span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$k = 1.0$&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>legend()
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_title(<span style=color:#e6db74>&#39;Linear entropy of the mirror&#39;</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_xlabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$t$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_ylabel(<span style=color:#e6db74>r</span><span style=color:#e6db74>&#39;$S$&#39;</span>, fontsize<span style=color:#f92672>=</span><span style=color:#ae81ff>18</span>)
+</span></span><span style=display:flex><span>ax<span style=color:#f92672>.</span>set_xlim(<span style=color:#ae81ff>0</span>, t<span style=color:#f92672>.</span>max());
+</span></span></code></pre></div><p><img src=/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_46_0.png alt=png></p><h3 id=figure-7-in-bose-et-al>Figure 7 in Bose et al.</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>t <span style=color:#f92672>=</span> [<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>2</span><span style=color:#f92672>*</span>pi]
+</span></span><span style=display:flex><span>k <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.5</span>
+</span></span><span style=display:flex><span>alpha <span style=color:#f92672>=</span> beta <span style=color:#f92672>=</span> <span style=color:#ae81ff>2</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>gamma_vec <span style=color:#f92672>=</span> [<span style=color:#ae81ff>0.001</span>, <span style=color:#ae81ff>0.01</span>, <span style=color:#ae81ff>0.1</span>, <span style=color:#ae81ff>1.0</span>]
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>states <span style=color:#f92672>=</span> [solve_dynamics_damped(r, k, gamma, alpha, beta, t, <span style=color:#ae81ff>3</span><span style=color:#f92672>*</span>N, <span style=color:#ae81ff>2</span><span style=color:#f92672>*</span>M)<span style=color:#f92672>.</span>states[<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>] <span style=color:#66d9ef>for</span> gamma <span style=color:#f92672>in</span> gamma_vec]
 </span></span></code></pre></div><pre><code> Total run time:  38.77s*] Elapsed 38.77s / Remaining 00:00:00:00
  Total run time:  45.80s*] Elapsed 45.80s / Remaining 00:00:00:00
  Total run time:  51.90s*] Elapsed 51.90s / Remaining 00:00:00:00
  Total run time:  53.20s*] Elapsed 53.20s / Remaining 00:00:00:00
-</code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fig, axes <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplots(len(gamma_vec), <span style="color:#ae81ff">2</span>, figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">16</span>))
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> idx, rho <span style="color:#f92672">in</span> enumerate(states):
-</span></span><span style="display:flex;"><span>    rho_cavity <span style="color:#f92672">=</span> ptrace(rho, <span style="color:#ae81ff">0</span>)
-</span></span><span style="display:flex;"><span>    plot_fock_distribution(rho_cavity, fig<span style="color:#f92672">=</span>fig, ax<span style="color:#f92672">=</span>axes[idx, <span style="color:#ae81ff">0</span>])
-</span></span><span style="display:flex;"><span>    plot_wigner(rho_cavity, fig<span style="color:#f92672">=</span>fig, ax<span style="color:#f92672">=</span>axes[idx, <span style="color:#ae81ff">1</span>])
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>fig<span style="color:#f92672">.</span>tight_layout()
-</span></span></code></pre></div><p><img src="/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_51_0.png" alt="png"></p>
-<h2 id="versions">Versions</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">%</span>reload_ext version_information
-</span></span><span style="display:flex;"><span><span style="color:#f92672">%</span>version_information numpy, scipy, matplotlib, qutip
-</span></span></code></pre></div><table><tr><th>Software</th><th>Version</th></tr><tr><td>Python</td><td>3.13.5 64bit [GCC 15.1.1 20250521 (Red Hat 15.1.1-2)]</td></tr><tr><td>IPython</td><td>9.2.0</td></tr><tr><td>OS</td><td>Linux 6.14.11 300.fc42.x86\_64 x86\_64 with glibc2.41</td></tr><tr><td>numpy</td><td>2.3.1</td></tr><tr><td>scipy</td><td>1.16.0</td></tr><tr><td>matplotlib</td><td>3.10.3</td></tr><tr><td>qutip</td><td>5.2.0</td></tr><tr><td colspan='2'>Mon Jul 14 09:01:53 2025 CEST</td></tr></table>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"></code></pre></div>
-        </div>
-
-        
-        <div class="row ps-3 pe-3">
-        
-          <div class="col-md-6 share-buttons">
-          
-          </div>
-
-        
-        
-          
-            
-          
-          <div class="col-md-6 btn-improve-page">
-             
-               <a href="https://github.com/oameye/hugo-toha/edit/main/content/posts/Phys_Rev_A_56_4175_1997/index.md" title="Improve this page" target="_blank" rel="noopener">
-            
-                <i class="fas fa-code-branch"></i>
-                Improve this page
-              </a>
-          </div>
-        
-        </div>
-
-
-
-      
-      <hr />
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-    
-    
-  
-  
-
-
-<div class="row next-prev-navigator">
-  
-    <div class="col-md-6 previous-article">
-      <a href="/posts/bloch_oscillations/" title="Bloch oscillation in a dynamically modulated ring resonator" class="btn filled-button">
-        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
-        <div class="next-prev-text">Bloch oscillation in a dynamically modulated ring resonator</div>
-      </a>
-    </div>
-  
-  
-</div>
-
-      <hr />
-
-      
-      
-
-      
-      
-
-      </div>
-    </div>
-  </div>
-  
-  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
-    <i class="fas fa-chevron-circle-up"></i>
-  </a>
-</section>
-
-
-      
-      
-  <section class="toc-section" id="toc-section">
-    
-    <div class="toc-holder">
-      <h5 class="text-center ps-3">Table of Contents</h5>
-      <hr>
-      <div class="toc">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#hamiltonian-and-initial-state">Hamiltonian and initial state</a></li>
-    <li><a href="#undamped-dynamics">Undamped dynamics</a>
-      <ul>
-        <li><a href="#figure-1-in-bose-et-al">Figure 1 in Bose et al.</a></li>
-        <li><a href="#check-hilbert-space-truncation">Check Hilbert space truncation</a></li>
-        <li><a href="#figure-2-in-bose-et-al">Figure 2 in Bose et al.</a></li>
-        <li><a href="#figure-3-in-bose-et-al">Figure 3 in Bose et al.</a></li>
-      </ul>
-    </li>
-    <li><a href="#damped-dynamics">Damped dynamics</a>
-      <ul>
-        <li><a href="#figure-6-in-bose-et-al">Figure 6 in Bose et al.</a></li>
-        <li><a href="#figure-7-in-bose-et-al">Figure 7 in Bose et al.</a></li>
-      </ul>
-    </li>
-    <li><a href="#versions">Versions</a></li>
-  </ul>
-</nav>
-      </div>
-    </div>
-    
-  </section>
-
-    </div>
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-  
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-    
-  
-  
-
-  
-  
-  
-
-  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
-    <div class="container pt-5">
-      <div class="row text-start">
-        
-        
-        
-        
-      </div>
-    </div>
-    
-    
-  </footer>
-
-
-    <script src="/application.d2f3f0e18bcf410e0d49e8ce647f73d5bd7bf5fa7a6dadd99b604c3cfafd0eb6.js" integrity="sha256-0vPw4YvPQQ4NSejOZH9z1b179fp6ba3Zm2BMPPr9DrY=" defer></script>
-
-
-    
-     
-
-    
-    
-
-</body>
-</html>
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span>fig, axes <span style=color:#f92672>=</span> plt<span style=color:#f92672>.</span>subplots(len(gamma_vec), <span style=color:#ae81ff>2</span>, figsize<span style=color:#f92672>=</span>(<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>16</span>))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> idx, rho <span style=color:#f92672>in</span> enumerate(states):
+</span></span><span style=display:flex><span>    rho_cavity <span style=color:#f92672>=</span> ptrace(rho, <span style=color:#ae81ff>0</span>)
+</span></span><span style=display:flex><span>    plot_fock_distribution(rho_cavity, fig<span style=color:#f92672>=</span>fig, ax<span style=color:#f92672>=</span>axes[idx, <span style=color:#ae81ff>0</span>])
+</span></span><span style=display:flex><span>    plot_wigner(rho_cavity, fig<span style=color:#f92672>=</span>fig, ax<span style=color:#f92672>=</span>axes[idx, <span style=color:#ae81ff>1</span>])
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>fig<span style=color:#f92672>.</span>tight_layout()
+</span></span></code></pre></div><p><img src=/posts/phys_rev_a_56_4175_1997/Reproduce-PRA-56-4175-1997-Bose_files/Reproduce-PRA-56-4175-1997-Bose_51_0.png alt=png></p><h2 id=versions>Versions</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#f92672>%</span>reload_ext version_information
+</span></span><span style=display:flex><span><span style=color:#f92672>%</span>version_information numpy, scipy, matplotlib, qutip
+</span></span></code></pre></div><table><tr><th>Software</th><th>Version</th></tr><tr><td>Python</td><td>3.13.5 64bit [GCC 15.1.1 20250521 (Red Hat 15.1.1-2)]</td></tr><tr><td>IPython</td><td>9.2.0</td></tr><tr><td>OS</td><td>Linux 6.14.11 300.fc42.x86\_64 x86\_64 with glibc2.41</td></tr><tr><td>numpy</td><td>2.3.1</td></tr><tr><td>scipy</td><td>1.16.0</td></tr><tr><td>matplotlib</td><td>3.10.3</td></tr><tr><td>qutip</td><td>5.2.0</td></tr><tr><td colspan=2>Mon Jul 14 09:01:53 2025 CEST</td></tr></table><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python></code></pre></div></div><div class="row ps-3 pe-3"><div class="col-md-6 share-buttons"></div><div class="col-md-6 btn-improve-page"><a href=https://github.com/oameye/hugo-toha/edit/main/content/posts/Phys_Rev_A_56_4175_1997/index.md title="Improve this page" target=_blank rel=noopener><i class="fas fa-code-branch"></i>
+Improve this page</a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/posts/bloch_oscillations/ title="Bloch oscillation in a dynamically modulated ring resonator" class="btn filled-button"><div><i class="fas fa-chevron-circle-left"></i> Prev</div><div class=next-prev-text>Bloch oscillation in a dynamically modulated ring resonator</div></a></div></div><hr></div></div></div><a id=scroll-to-top class=btn type=button data-bs-toggle=tooltip data-bs-placement=left title="Scroll to top"><i class="fas fa-chevron-circle-up"></i></a></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center ps-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><a href=#introduction>Introduction</a></li><li><a href=#hamiltonian-and-initial-state>Hamiltonian and initial state</a></li><li><a href=#undamped-dynamics>Undamped dynamics</a><ul><li><a href=#figure-1-in-bose-et-al>Figure 1 in Bose et al.</a></li><li><a href=#check-hilbert-space-truncation>Check Hilbert space truncation</a></li><li><a href=#figure-2-in-bose-et-al>Figure 2 in Bose et al.</a></li><li><a href=#figure-3-in-bose-et-al>Figure 3 in Bose et al.</a></li></ul></li><li><a href=#damped-dynamics>Damped dynamics</a><ul><li><a href=#figure-6-in-bose-et-al>Figure 6 in Bose et al.</a></li><li><a href=#figure-7-in-bose-et-al>Figure 7 in Bose et al.</a></li></ul></li><li><a href=#versions>Versions</a></li></ul></nav></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-start"></div></div></footer><script src=/application.d572847081d6f49d4af3880010a02bfcf047f2ab00c81d60f3843048d1e3ea4a.js integrity="sha256-1XKEcIHW9J1K84gAEKAr/PBH8qsAyB1g84QwSNHj6ko=" defer></script></body></html>

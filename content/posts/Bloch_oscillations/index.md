@@ -4,9 +4,9 @@ date: "2023-10-23T00:00:00Z"
 summary: We show how a ring resonator with a dynamic refractive index modulation can exhibit Bloch oscillation of light along the frequency axis, as a result of an effective force for photons induced by the modulation.
 menu:
   sidebar:
-    name: Bloch oscillations
+    name: Optica 3(9) 1014-1018 (2016)
     identifier: bloch_oscilations
-    # parent: reproduced_papers
+    parent: reproduced_papers
     weight: 10
 hero: preview.png
 tags:

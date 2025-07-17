@@ -15,8 +15,11 @@ degrees:
   timeframe: 2022-2026
   institution:
     name: University of Konstanz
-    url: "#"
+    url: "https://www.zilberberg.uni-konstanz.de/home"
     logo: /images/sections/education/uni_konstanz.png
+  customSections: #(optional)
+  - name: Supervisor
+    content:  Prof. Oded Zilberberg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   # grade: #(optional)
@@ -36,7 +39,7 @@ degrees:
   timeframe: 2017-2022
   institution:
     name: KU leuven
-    url: "#"
+    url: "https://fys.kuleuven.be/itf"
     logo: /images/sections/education/KU_Leuven_logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg

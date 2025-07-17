@@ -4,16 +4,17 @@ date: "2023-10-23T00:00:00Z"
 summary: We show how a ring resonator with a dynamic refractive index modulation can exhibit Bloch oscillation of light along the frequency axis, as a result of an effective force for photons induced by the modulation.
 menu:
   sidebar:
-    name: Bloch oscillations
+    name: Optica 3(9) 1014-1018 (2016)
     identifier: bloch_oscilations
-    # parent: reproduced_papers
+    parent: reproduced_papers
     weight: 10
 hero: preview.png
 tags:
 - Julia
 - Tutorial
+- Reproduced paper
 categories:
-- reproduced_papers
+- reproduced_paper
 ---
 
 ```julia
@@ -29,7 +30,7 @@ default(fmt=:png,
 
 We want to reproduce the Bloch oscillation in a ring resonator. A ring resonator with a dynamic refractive index modulation can exhibit Bloch oscillation of light along the frequency axis, as a result of an effective force for photons induced by the modulation, as is shown in [Yuan et al (2016)](https://doi.org/10.1364/OPTICA.3.001014).
 
-Furthermore, we want to show that one can deduce a directional transport on the frequency axis by switching the detuning periodically.
+Furthermore, we want to show that one can deduce directional transport on the frequency axis by switching the detuning periodically.
 
 We will implement the model ad deduced in [Yuan et al (2016)](https://doi.org/10.1364/OPTICA.3.001014):
 $$
@@ -55,7 +56,7 @@ system = System(sample, μ=0.0, statistics=LM.OneParticle)
     LatticeModels.FilledZones{Sample{Nothing, SquareLattice{2}, Nothing, BoundaryConditions{Tuple{TwistedBoundary, TwistedBoundary}}}}(Sample{Nothing, SquareLattice{2}, Nothing, BoundaryConditions{Tuple{TwistedBoundary, TwistedBoundary}}}(nothing, SquareLattice{2}((100, 1), LatticeModels.Bravais{2, 1}([1.0 0.0; 0.0 1.0], [0.0; 0.0;;]), Bool[1, 1, 1, 1, 1, 1, 1, 1, 1, 1  …  1, 1, 1, 1, 1, 1, 1, 1, 1, 1]), BoundaryConditions{Tuple{TwistedBoundary, TwistedBoundary}}((TwistedBoundary(1, 0.0), TwistedBoundary(2, 0.0))), nothing), 0.0, LatticeModels.OneParticle)
 
 
-We implement the time dependent hamiltonian where switch the detuning periodically between -$\Delta$ and +$\Delta$ with a period of $T=1$.
+We implement the time dependent Hamiltonian where switch the detuning periodically between -$\Delta$ and +$\Delta$ with a period of $T=1$.
 
 
 ```julia

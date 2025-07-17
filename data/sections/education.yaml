@@ -20,6 +20,18 @@ degrees:
   customSections: #(optional)
   - name: Supervisor
     content:  Prof. Oded Zilberberg
+  - name: Grant
+    content: |-
+      [SNF Sinergia Grant #206008](https://data.snf.ch/grants/grant/206008): **Integrated Phase Logic Networks**
+
+      Collaborative project between ETH Zurich, CSEM, and University of Konstanz
+  - name: Project Summary
+    content: |-
+      Development of novel computational hardware using parametric 
+      oscillators (parametrons) as building blocks for parallel phase logic networks. 
+      The research combines optomechanics, nonlinear optics, and quantum engineering 
+      to create integrated logic architectures for optimization problems and neural 
+      network applications beyond traditional transistor-based computing.  
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   # grade: #(optional)

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Physics on Orjan Ameye</title><link>https://oameye.github.io/notes/physics/</link><description>Recent content in Physics on Orjan Ameye</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://oameye.github.io/notes/physics/index.xml" rel="self" type="application/rss+xml"/><item><title>Facts</title><link>https://oameye.github.io/notes/physics/facts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://oameye.github.io/notes/physics/facts/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Bohr–Van Leeuwen theorem&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">The &lt;strong>Bohr–Van Leeuwen theorem&lt;/strong> states that when statistical mechanics and classical mechanics are applied consistently, the thermal average of the magnetization is always zero. This makes &lt;em>magnetism&lt;/em> in solids solely a &lt;em>quantum mechanical effect&lt;/em> and means that classical physics cannot account for paramagnetism, diamagnetism and ferromagnetism.&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Optimal Control</title><link>https://oameye.github.io/notes/physics/optimal-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://oameye.github.io/notes/physics/optimal-control/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Optimal Control and Physics&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;a href="https://cgliu.github.io/posts/optimal-control/optimization-physics.html" target="_blank" rel="noopener">&lt;strong>Cool Things in Optimal Control and Physics&lt;/strong>&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

@@ -15,4 +15,10 @@ menu:
 * [**Awesome PhD**](https://phd-resources.github.io/) by Helena Hartmann: A curated list of carefully selected tools and resources I wish I knew when starting my PhD.
 
 {{< /note >}}
-  
+
+
+{{< note title="Survival of the Firstest" >}}
+
+https://peterse.github.io/2024/04/02/Survival-of-the-firstest.html?s=09
+
+{{< /note >}}

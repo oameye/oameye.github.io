@@ -38,6 +38,20 @@ markup:
     startLevel: 2
     endLevel: 6
     ordered: false
+  highlight:
+    # anchorLineNos: false
+    codeFences: true
+    # guessSyntax: false
+    # hl_Lines: ""
+    # hl_inline: false
+    # lineAnchors: ""
+    # lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    # noClasses: true
+    style: catppuccin-latte #tango #lovelace #github
+    tabWidth: 2
+    # wrapperClass: highlight
 
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
@@ -245,7 +259,7 @@ params:
     #   codeFences: false
     # ```
     syntaxHighlight:
-      enable: true
+      enable: false
       services:
         hljs:
           # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure

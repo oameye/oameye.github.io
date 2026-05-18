@@ -81,7 +81,7 @@ jobs:
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: 'feat(publications): import latest publications from bibtex'
           title: 'HugoBlox Kit - Import latest publications from Bibtex'

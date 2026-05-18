@@ -1,0 +1,17 @@
+# Navigation Links
+main:
+  - name: Bio
+    url: /
+    weight: 10
+  - name: Publications
+    url: /#publications
+    weight: 20
+  - name: Projects
+    url: /projects/
+    weight: 30
+  - name: Blog
+    url: /blog/
+    weight: 40
+  - name: Notes
+    url: /tags/notes/
+    weight: 50

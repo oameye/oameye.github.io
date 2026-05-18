@@ -1,0 +1,71 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Orjan Ameye
+  given: Orjan
+  family: Ameye
+role: Theoretical Physicist
+bio: |
+  PhD candidate in the Quest research group (Prof. Oded Zilberberg) at the
+  University of Konstanz, working on non-equilibrium physics from nonlinear
+  (quantum) resonators to many-body systems. On the side I enjoy coding and
+  contributing to scientific open-source software.
+
+affiliations:
+  - name: Quest research group, University of Konstanz
+    url: https://www.zilberberg.uni-konstanz.de/home/
+
+links:
+  - icon: at-symbol
+    url: mailto:orjan.ameye@hotmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/oameye
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/orjanameye/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=nitynJ4AAAAJ
+
+interests:
+  - Driven-dissipative few-body physics
+  - Floquet perturbative expansions
+  - Nonlinear and parametric (quantum) resonators
+  - Open-source scientific software
+
+education:
+  - degree: PhD in Theoretical Condensed Matter
+    institution: University of Konstanz
+    start: 2022-10-01
+    summary: |
+      ![](/media/uni_konstanz.png#float-right)
+
+      Supervised by Prof. Oded Zilberberg in the Quest research group.
+
+      Funded by [SNF Sinergia Grant #206008](https://data.snf.ch/grants/grant/206008),
+      *Integrated Phase Logic Networks*, a collaborative project between ETH Zürich,
+      CSEM and the University of Konstanz on novel computational hardware using
+      parametric oscillators as building blocks for parallel phase-logic networks.
+
+  - degree: MSc in Theoretical Physics
+    institution: KU Leuven
+    start: 2017-09-01
+    end: 2022-07-01
+    summary: |
+      ![](/media/ku_leuven.png#float-right)
+
+      Thesis: *Path Integral Monte Carlo Worms Algorithm for Superfluid Ring
+      Lattices: Building Quantum Devices in Optical Landscapes*. Supervised by
+      Prof. P. Van Dorpe, N. Verellen and D. Kouznetsov.
+
+      Secretary of the Overarching Education Council of the Faculty of Science,
+      and student representative at the Education Faculty Board, Faculty Group,
+      Board of Internationalisation and the Programme Committee for Physics.
+
+experience:
+  - role: PhD in Theoretical Condensed Matter
+    org: University of Konstanz, Quest research group
+    start: 2022-10-01
+    summary: |
+      Theoretical study of electronic and photonic quantum-engineered systems,
+      with emphasis on out-of-equilibrium dynamics and parametric phenomena.

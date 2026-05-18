@@ -1,2 +1,6 @@
-github.com/hugo-toha/toha/v4 v4.9.0 h1:FX5i3I7eP/lpAQZv4SjnKw5jw0aowCFBGjc+pW1W6PA=
-github.com/hugo-toha/toha/v4 v4.9.0/go.mod h1:TU/6WXz7fJ3BSrTS+K/sVctzUMF4pB4ZwKWzFBFra8g=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260502203050-b8ad5540288a h1:pjm3jWWDxgonaTRR/Rp7gD3ZELWTse0Un1nVksVGPaE=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260502203050-b8ad5540288a/go.mod h1:0F2Ss2NeylmaBP7+qx0U6zFPeMZ9NoLbAQakKXDqygo=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260327032542-ef8ed449c7e8 h1:lPk5L2PGVluHJKHWytWBEaZI4d1x8z9QMYwcYtMhF3w=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260327032542-ef8ed449c7e8/go.mod h1:UuppRGml2K1EmlDkN+HemycohgZLjOy0QPGYOnoPnY4=
+github.com/HugoBlox/kit/modules/slides v0.0.0-20260330182742-6a2f1ba2aeb5 h1:Ko2+qpzJUy8p8frRw7aB0ZEa9XlLa6Vh6VU4lifDR2c=
+github.com/HugoBlox/kit/modules/slides v0.0.0-20260330182742-6a2f1ba2aeb5/go.mod h1:/XTQAtd2KCiwg/GVMAoSzKPf/DYPVbAAEysmBdWgYu4=

@@ -1,0 +1,9 @@
+{{- $title := .Get "title" -}}
+<div class="my-4 rounded-lg border border-primary-200 bg-primary-50 p-4 dark:border-primary-700 dark:bg-primary-900/30">
+  {{- with $title -}}
+  <p class="mb-2 font-semibold text-primary-900 dark:text-primary-100">{{ . }}</p>
+  {{- end -}}
+  <div class="prose prose-sm max-w-none dark:prose-invert">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

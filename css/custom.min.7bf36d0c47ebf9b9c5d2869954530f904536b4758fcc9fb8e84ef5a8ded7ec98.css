@@ -1,0 +1,1 @@
+.prose-xl,.lg\:prose-xl{font-size:1rem;line-height:1.75}@media(min-width:768px){#site-header .navbar{position:relative}#site-header label[for=nav-toggle]{display:none}#site-header #nav-menu{display:flex;width:auto;order:1;padding-bottom:0;column-gap:clamp(.25rem,.75vw,1rem);position:absolute;left:50%;transform:translateX(-50%)}#site-header #nav-menu>*+*{margin-left:0}}

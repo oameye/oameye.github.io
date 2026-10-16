@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#351f11"/>
-  <text x="32" y="43" text-anchor="middle" font-family="Lora, Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#fffaf5" letter-spacing="-1">OA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Duffing resonance: a peak bent over by the nonlinearity, then the jump down. -->
+  <rect width="32" height="32" rx="7" fill="#223d6b"/>
+  <path d="M5.4 24.9C11.3 24.5 14.4 21.8 16.8 17.1S20.3 9.9 21.5 9.9C21.9 9.9 21.9 11.1 21.9 12.6V23.9C21.9 24.5 22.4 24.6 23 24.6H25" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
